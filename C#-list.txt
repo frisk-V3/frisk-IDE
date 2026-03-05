@@ -1,0 +1,280 @@
+Category,Keyword
+Built-in Types,bool
+Built-in Types,byte
+Built-in Types,char
+Built-in Types,decimal
+Built-in Types,double
+Built-in Types,float
+Built-in Types,int
+Built-in Types,long
+Built-in Types,nint
+Built-in Types,nuint
+Built-in Types,object
+Built-in Types,sbyte
+Built-in Types,short
+Built-in Types,string
+Built-in Types,uint
+Built-in Types,ulong
+Built-in Types,ushort
+Built-in Types,void
+Control Flow,break
+Control Flow,case
+Control Flow,catch
+Control Flow,continue
+Control Flow,default
+Control Flow,do
+Control Flow,else
+Control Flow,finally
+Control Flow,for
+Control Flow,foreach
+Control Flow,goto
+Control Flow,if
+Control Flow,return
+Control Flow,switch
+Control Flow,throw
+Control Flow,try
+Control Flow,while
+Control Flow,yield
+Modifiers & Definitions,abstract
+Modifiers & Definitions,async
+Modifiers & Definitions,await
+Modifiers & Definitions,base
+Modifiers & Definitions,class
+Modifiers & Definitions,const
+Modifiers & Definitions,delegate
+Modifiers & Definitions,enum
+Modifiers & Definitions,event
+Modifiers & Definitions,explicit
+Modifiers & Definitions,extern
+Modifiers & Definitions,file
+Modifiers & Definitions,fixed
+Modifiers & Definitions,implicit
+Modifiers & Definitions,interface
+Modifiers & Definitions,internal
+Modifiers & Definitions,new
+Modifiers & Definitions,operator
+Modifiers & Definitions,override
+Modifiers & Definitions,partial
+Modifiers & Definitions,private
+Modifiers & Definitions,protected
+Modifiers & Definitions,public
+Modifiers & Definitions,readonly
+Modifiers & Definitions,record
+Modifiers & Definitions,sealed
+Modifiers & Definitions,static
+Modifiers & Definitions,struct
+Modifiers & Definitions,this
+Modifiers & Definitions,unsafe
+Modifiers & Definitions,virtual
+Modifiers & Definitions,volatile
+Logic & Operators,as
+Logic & Operators,checked
+Logic & Operators,is
+Logic & Operators,lock
+Logic & Operators,nameof
+Logic & Operators,out
+Logic & Operators,params
+Logic & Operators,ref
+Logic & Operators,sizeof
+Logic & Operators,stackalloc
+Logic & Operators,typeof
+Logic & Operators,unchecked
+Logic & Operators,using
+LINQ & Contextual,add
+LINQ & Contextual,alias
+LINQ & Contextual,ascending
+LINQ & Contextual,by
+LINQ & Contextual,descending
+LINQ & Contextual,dynamic
+LINQ & Contextual,equals
+LINQ & Contextual,from
+LINQ & Contextual,get
+LINQ & Contextual,global
+LINQ & Contextual,group
+LINQ & Contextual,init
+LINQ & Contextual,into
+LINQ & Contextual,join
+LINQ & Contextual,let
+LINQ & Contextual,managed
+LINQ & Contextual,on
+LINQ & Contextual,orderby
+LINQ & Contextual,remove
+LINQ & Contextual,select
+LINQ & Contextual,set
+LINQ & Contextual,unmanaged
+LINQ & Contextual,value
+LINQ & Contextual,var
+LINQ & Contextual,when
+LINQ & Contextual,where
+LINQ & Contextual,with
+Literals,false
+Literals,null
+Literals,true
+Symbols,+
+Symbols,-
+Symbols,*
+Symbols,/
+Symbols,%
+Symbols,&
+Symbols,|
+Symbols,^
+Symbols,!
+Symbols,~
+Symbols,=
+Symbols,<
+Symbols,>
+Symbols,?
+Symbols,??
+Symbols,::
+Symbols,?.
+Symbols,=>
+Symbols,++
+Symbols,--
+Symbols,&&
+Symbols,||
+Symbols,<<
+Symbols,>>
+Symbols,==
+Symbols,!=
+Symbols,<=
+Symbols,>=
+Symbols,+=
+Symbols,-=
+Symbols,*=
+Symbols,/=
+Symbols,%=
+Symbols,&=
+Symbols,|=
+Symbols,^=
+Symbols,<<=
+Symbols,>>=
+Symbols,??=
+Symbols,..
+Category,Word
+Preprocessor,#if
+Preprocessor,#else
+Preprocessor,#elif
+Preprocessor,#endif
+Preprocessor,#define
+Preprocessor,#undef
+Preprocessor,#warning
+Preprocessor,#error
+Preprocessor,#line
+Preprocessor,#region
+Preprocessor,#endregion
+Preprocessor,#pragma
+Preprocessor,#nullable
+Category,Word
+DocComment,summary
+DocComment,remarks
+DocComment,param
+DocComment,returns
+DocComment,exception
+DocComment,example
+DocComment,code
+DocComment,see
+DocComment,seealso
+DocComment,inheritdoc
+DocComment,list
+DocComment,item
+DocComment,description
+DocComment,typeparam
+DocComment,value
+Category,Word
+Common Class,Console
+Common Class,Math
+Common Class,DateTime
+Common Class,TimeSpan
+Common Class,Guid
+Common Class,String
+Common Class,StringBuilder
+Common Class,Environment
+Common Class,Convert
+Collection,List
+Collection,Dictionary
+Collection,HashSet
+Collection,Queue
+Collection,Stack
+Collection,IEnumerable
+Collection,ICollection
+Collection,IList
+IO/System,File
+IO/System,Directory
+IO/System,Path
+IO/System,Stream
+IO/System,Task
+IO/System,Thread
+IO/System,Exception
+IO/System,Attribute
+Category,Word
+Attribute,Serializable
+Attribute,Obsolete
+Attribute,Conditional
+Attribute,AttributeUsage
+Attribute,Flags
+Attribute,NonSerialized
+Attribute,DllImport
+Attribute,MarshalAs
+Attribute,StructLayout
+Attribute,JsonPropertyName
+Attribute,Required
+Attribute,StringLength
+Attribute,Range
+Attribute,Key
+Attribute,Display
+Category,Word
+Attribute,Serializable
+Attribute,Obsolete
+Attribute,Conditional
+Attribute,AttributeUsage
+Attribute,Flags
+Attribute,DllImport
+Attribute,MarshalAs
+Attribute,StructLayout
+Attribute,FieldOffset
+Attribute,NonSerialized
+Attribute,ThreadStatic
+Attribute,ContextStatic
+Attribute,CLSCompliant
+Attribute,CallerMemberName
+Attribute,CallerFilePath
+Attribute,CallerLineNumber
+Attribute,CallerArgumentExpression
+Attribute,MethodImpl
+Attribute,InternalsVisibleTo
+Attribute,RequiredMember
+Attribute,SetsRequiredMembers
+Attribute,InterpolatedStringHandler
+Attribute,ModuleInitializer
+Attribute,SkipLocalsInit
+Attribute,UnscopedRef
+Attribute,OverloadResolutionPriority
+Attribute,Experimental
+Attribute,AsyncMethodBuilder
+Attribute,EnumeratorCancellation
+Attribute,CollectionBuilder
+Category,Word
+Snippet,for
+Snippet,foreach
+Snippet,while
+Snippet,do
+Snippet,if
+Snippet,else
+Snippet,switch
+Snippet,try
+Snippet,catch
+Snippet,finally
+Snippet,using
+Snippet,lock
+Snippet,class
+Snippet,struct
+Snippet,interface
+Snippet,enum
+Snippet,prop
+Snippet,propfull
+Snippet,propg
+Snippet,ctor
+Snippet,cw
+Snippet,sim
+Snippet,svm
+Snippet,indexer
