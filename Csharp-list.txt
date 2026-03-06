@@ -1,4 +1,3 @@
-Category,Keyword
 Built-in Types,bool
 Built-in Types,byte
 Built-in Types,char
