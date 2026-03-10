@@ -1,14 +1,13 @@
-<link rel="stylesheet" href="Editor.css">
+function bindEditor() {
+    const input = document.getElementById("editor");
+    const highlight = document.getElementById("highlight");
 
-<div id="editor-container">
-    <pre id="highlight"></pre>
-    <textarea id="editor"></textarea>
-</div>
-
-<script src="ColorCompile.js"></script>
-<script src="Editor.js"></script>
-<script>
-    loadAllDictionaries().then(() => {
-        bindEditor();
+    input.addEventListener("input", () => {
+        highlight.innerHTML = highlightCode(input.value);
     });
-</script>
+
+    input.addEventListener("scroll", () => {
+        highlight.scrollTop = input.scrollTop;
+        highlight.scrollLeft = input.scrollLeft;
+    });
+}
