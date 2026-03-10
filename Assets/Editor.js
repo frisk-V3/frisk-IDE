@@ -13,12 +13,15 @@ async function loadCSV(url) {
     const lines = text.split("\n");
 
     for (const line of lines) {
-        const m = line.match(/"(.+?)","(.+?)"/);
+        // 修正した
+        const m = line.match(/"(.+?)",(.+)/);
         if (!m) continue;
 
-        const category = m[1].split(",")[0];
-        const word = m[1].split(",")[1];
-        const colorName = m[2];
+        const categoryWord = m[1];   // "Built-in Types,bool"
+        const colorName = m[2].trim(); // blue
+
+        const parts = categoryWord.split(",");
+        const word = parts[1]; // bool
 
         // ColorCompile.js の getColor() を使用
         const hex = getColor(colorName);
