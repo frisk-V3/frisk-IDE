@@ -1,0 +1,10 @@
+<textarea id="editor"></textarea>
+<div id="preview"></div>
+
+<script src="ColorCompile.js"></script>
+<script src="Editor.js"></script>
+<script>
+    loadAllDictionaries().then(() => {
+        bindEditor("editor", "preview");
+    });
+</script>
