@@ -17,8 +17,7 @@ jobs:
           - os: windows-latest
             args: --windows -c.win.sign=false
           - os: macos-latest
-            # macOS: 署名を「一切しない」ことを徹底させ、ターゲットを明示します
-            args: --mac -c.mac.identity=null -c.mac.type=development -c.mac.hardenedRuntime=false -c.mac.gatekeeperAssess=false
+            args: --mac -c.mac.identity=null -c.mac.type=development
           - os: ubuntu-latest
             args: --linux
 
@@ -46,14 +45,16 @@ jobs:
         run: npm install
 
       - name: Build application
-        # 署名をスキップする環境変数をさらに追加
-        run: npm run dist -- ${{ matrix.args }} -c.publish=never
+        # --publish never を引数の先頭に移動し、環境変数でも公開をブロックします
+        run: npm run dist -- --publish never ${{ matrix.args }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # 署名と自動公開を徹底的にオフにする設定
           CSC_IDENTITY_AUTO_DISCOVERY: false
           CSC_SKIP_2FA_SETTING: true
-          # これを追加：macOSでのビルドエラー回避に有効なことがあります
           ELECTRON_SKIP_NOTARIZATION: true
+          # electron-builderの自動パブリッシュを環境変数で無効化
+          EP_SKIP_AND_LOG_IF_OFFLINE: true
 
       - name: Upload to Release
         uses: softprops/action-gh-release@v1
@@ -61,12 +62,12 @@ jobs:
         with:
           tag_name: ${{ github.ref_name }}
           name: Build ${{ github.ref_name }}
+          # 確実に生成されるファイルを指定
           files: |
             dist/*.exe
             dist/*.dmg
             dist/*.AppImage
             dist/*.zip
-            dist/*.deb
           prerelease: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
