@@ -15,11 +15,12 @@ jobs:
         os: [windows-latest, macos-latest, ubuntu-latest]
         include:
           - os: windows-latest
-            platform: --windows
+            # Windows(PowerShell)では引数を引用符で囲まないとファイルと誤認されます
+            args: '--windows -c.win.sign=false -c.win.target=nsis'
           - os: macos-latest
-            platform: --mac
+            args: '--mac -c.mac.identity=null -c.mac.type=development'
           - os: ubuntu-latest
-            platform: --linux
+            args: '--linux'
 
     runs-on: ${{ matrix.os }}
 
@@ -45,10 +46,8 @@ jobs:
         run: npm install
 
       - name: Build application
-        # npm run dist は --win が固定されているので使いません
-        # 直接 npx で叩き、OSごとのフラグと署名無効設定を注入します
-        run: |
-          npx electron-builder ${{ matrix.platform }} --publish never -c.win.sign=false -c.mac.identity=null -c.mac.type=development
+        # 引数全体をそのまま渡し、不要なパブリッシュを確実に止めます
+        run: npx electron-builder --publish never ${{ matrix.args }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CSC_IDENTITY_AUTO_DISCOVERY: false
@@ -66,7 +65,6 @@ jobs:
             dist/*.dmg
             dist/*.AppImage
             dist/*.zip
-            dist/*.deb
           prerelease: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
