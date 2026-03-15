@@ -3,26 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>V3 Editor</title>
-
-    <!-- CSS 読み込み（ファイル名は editor.css で統一） -->
     <link rel="stylesheet" href="Editor.css">
 </head>
 <body>
 
-    <!-- IDE 本体 -->
     <div id="editor-container">
         <pre id="highlight"></pre>
         <textarea id="editor"></textarea>
     </div>
 
-    <!-- JS 読み込み -->
-    <script src="ColorCompile.js"></script>
-    <script src="Editor.js"></script>
-
-    <!-- 辞書ロード → エディタ起動 -->
     <script>
-        loadAllDictionaries().then(() => {
-            bindEditor();
+        window.V3.ColorCompile.loadAllDictionaries().then(() => {
+            window.V3.Editor.bindEditor();
         });
     </script>
 
