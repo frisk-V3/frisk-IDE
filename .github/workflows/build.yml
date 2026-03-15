@@ -10,14 +10,13 @@ on:
 jobs:
   build:
     strategy:
-      fail-fast: false # 1つのOSがこけても他を止めない設定
+      fail-fast: false
       matrix:
         os: [windows-latest, macos-latest, ubuntu-latest]
         include:
           - os: windows-latest
             args: --windows -c.win.sign=false
           - os: macos-latest
-            # macOS用に署名回避の引数を強化
             args: --mac -c.mac.identity=null -c.mac.type=distribution
           - os: ubuntu-latest
             args: --linux
@@ -36,6 +35,13 @@ jobs:
         with:
           node-version: 20
 
+      # Linuxの場合だけ、ビルドに必要なパッケージをインストールします
+      - name: Install Linux Dependencies
+        if: matrix.os == 'ubuntu-latest'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libarchive-tools libfuse2
+
       - name: Install dependencies
         run: npm install
 
@@ -43,7 +49,6 @@ jobs:
         run: npm run dist -- ${{ matrix.args }} -c.publish=never
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # macOS/Windowsの署名探索を強制停止する魔法の環境変数
           CSC_IDENTITY_AUTO_DISCOVERY: false
           CSC_SKIP_2FA_SETTING: true 
 
