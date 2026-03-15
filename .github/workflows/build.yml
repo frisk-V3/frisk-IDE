@@ -15,12 +15,11 @@ jobs:
         os: [windows-latest, macos-latest, ubuntu-latest]
         include:
           - os: windows-latest
-            # 引数から -c を外し、直接プロパティを指定する形式に変えます
-            args: --windows --config.win.sign=false
+            platform: --windows
           - os: macos-latest
-            args: --mac --config.mac.identity=null --config.mac.type=development
+            platform: --mac
           - os: ubuntu-latest
-            args: --linux
+            platform: --linux
 
     runs-on: ${{ matrix.os }}
 
@@ -46,8 +45,10 @@ jobs:
         run: npm install
 
       - name: Build application
-        # npm run を介さず直接 builder を叩いてスペース混入を徹底ガードします
-        run: npx electron-builder --publish never ${{ matrix.args }}
+        # npm run dist は --win が固定されているので使いません
+        # 直接 npx で叩き、OSごとのフラグと署名無効設定を注入します
+        run: |
+          npx electron-builder ${{ matrix.platform }} --publish never -c.win.sign=false -c.mac.identity=null -c.mac.type=development
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CSC_IDENTITY_AUTO_DISCOVERY: false
@@ -65,6 +66,7 @@ jobs:
             dist/*.dmg
             dist/*.AppImage
             dist/*.zip
+            dist/*.deb
           prerelease: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
