@@ -21,9 +21,8 @@ export function getColor(name: string | null | undefined): string | null {
     return ColorTable[key as keyof typeof ColorTable] ?? null;
 }
 
-export async function loadCSV(url: string): Promise<void> {
-    const fs = require("fs");
-    const text = fs.readFileSync(url, "utf8");
+export async function loadCSV(path: string): Promise<void> {
+    const text = (window as any).V3FS.readFile(path);
 
     for (const rawLine of text.split("\n")) {
         const line = rawLine.trim();
