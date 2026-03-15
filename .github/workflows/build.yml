@@ -45,16 +45,13 @@ jobs:
         run: npm install
 
       - name: Build application
-        # --publish never を引数の先頭に移動し、環境変数でも公開をブロックします
+        # 壊れている可能性がある設定ファイルを無視し、引数だけでビルドします
         run: npm run dist -- --publish never ${{ matrix.args }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # 署名と自動公開を徹底的にオフにする設定
           CSC_IDENTITY_AUTO_DISCOVERY: false
           CSC_SKIP_2FA_SETTING: true
           ELECTRON_SKIP_NOTARIZATION: true
-          # electron-builderの自動パブリッシュを環境変数で無効化
-          EP_SKIP_AND_LOG_IF_OFFLINE: true
 
       - name: Upload to Release
         uses: softprops/action-gh-release@v1
@@ -62,7 +59,6 @@ jobs:
         with:
           tag_name: ${{ github.ref_name }}
           name: Build ${{ github.ref_name }}
-          # 確実に生成されるファイルを指定
           files: |
             dist/*.exe
             dist/*.dmg
