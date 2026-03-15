@@ -15,10 +15,10 @@ jobs:
         os: [windows-latest, macos-latest, ubuntu-latest]
         include:
           - os: windows-latest
-            # -cの直後にスペースを入れない形式に修正
-            args: --windows -c.win.sign=false
+            # 引数から -c を外し、直接プロパティを指定する形式に変えます
+            args: --windows --config.win.sign=false
           - os: macos-latest
-            args: --mac -c.mac.identity=null -c.mac.type=development
+            args: --mac --config.mac.identity=null --config.mac.type=development
           - os: ubuntu-latest
             args: --linux
 
@@ -46,8 +46,8 @@ jobs:
         run: npm install
 
       - name: Build application
-        # --publish never の前後のスペースも確実にとりました
-        run: npm run dist -- --publish never ${{ matrix.args }}
+        # npm run を介さず直接 builder を叩いてスペース混入を徹底ガードします
+        run: npx electron-builder --publish never ${{ matrix.args }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CSC_IDENTITY_AUTO_DISCOVERY: false
@@ -65,7 +65,6 @@ jobs:
             dist/*.dmg
             dist/*.AppImage
             dist/*.zip
-            dist/*.deb
           prerelease: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
