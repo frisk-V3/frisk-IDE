@@ -26,20 +26,13 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 20
-          # エラーの原因になった cache: 'npm' を削除しました
 
       - name: Install dependencies
         run: npm install
 
-      - name: Disable Windows Code Signing
-        if: matrix.os == 'windows-latest'
-        run: |
-          echo "win:" >> electron-builder.yml
-          echo "  sign: false" >> electron-builder.yml
-          echo "  target: nsis" >> electron-builder.yml
-
       - name: Build application
-        run: npm run dist
+        # 引数に -c.win.target=nsis -c.win.sign=false を直接渡して強制上書きします
+        run: npm run dist -- -c.win.target=nsis -c.win.sign=false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CSC_SKIP_2FA_SETTING: true 
