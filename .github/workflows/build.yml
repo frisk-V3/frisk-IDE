@@ -17,7 +17,8 @@ jobs:
           - os: windows-latest
             args: --windows -c.win.sign=false
           - os: macos-latest
-            args: --mac -c.mac.identity=null -c.mac.type=distribution
+            # macOS: 署名を「一切しない」ことを徹底させ、ターゲットを明示します
+            args: --mac -c.mac.identity=null -c.mac.type=development -c.mac.hardenedRuntime=false -c.mac.gatekeeperAssess=false
           - os: ubuntu-latest
             args: --linux
 
@@ -35,7 +36,6 @@ jobs:
         with:
           node-version: 20
 
-      # Linuxの場合だけ、ビルドに必要なパッケージをインストールします
       - name: Install Linux Dependencies
         if: matrix.os == 'ubuntu-latest'
         run: |
@@ -46,11 +46,14 @@ jobs:
         run: npm install
 
       - name: Build application
+        # 署名をスキップする環境変数をさらに追加
         run: npm run dist -- ${{ matrix.args }} -c.publish=never
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CSC_IDENTITY_AUTO_DISCOVERY: false
-          CSC_SKIP_2FA_SETTING: true 
+          CSC_SKIP_2FA_SETTING: true
+          # これを追加：macOSでのビルドエラー回避に有効なことがあります
+          ELECTRON_SKIP_NOTARIZATION: true
 
       - name: Upload to Release
         uses: softprops/action-gh-release@v1
