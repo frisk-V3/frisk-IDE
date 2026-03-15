@@ -3,7 +3,7 @@ name: Build All Platforms
 on:
   push:
     branches:
-      - s  # ここを main から s に修正しました
+      - s
     tags:
       - 'v*'
 
@@ -15,7 +15,6 @@ jobs:
 
     runs-on: ${{ matrix.os }}
 
-    # 書き込み権限（リリース作成用）
     permissions:
       contents: write
 
@@ -27,7 +26,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 20
-          cache: 'npm'
+          # エラーの原因になった cache: 'npm' を削除しました
 
       - name: Install dependencies
         run: npm install
