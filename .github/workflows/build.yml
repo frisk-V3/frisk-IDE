@@ -3,7 +3,7 @@ name: Build All Platforms
 on:
   push:
     branches:
-      - s
+      - s  # 指定通り 's' ブランチへのプッシュで実行
     tags:
       - 'v*'
 
@@ -15,7 +15,6 @@ jobs:
         os: [windows-latest, macos-latest, ubuntu-latest]
         include:
           - os: windows-latest
-            # Windows(PowerShell)では引数を引用符で囲まないとファイルと誤認されます
             args: '--windows -c.win.sign=false -c.win.target=nsis'
           - os: macos-latest
             args: '--mac -c.mac.identity=null -c.mac.type=development'
@@ -29,12 +28,13 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: 'npm' # キャッシュ有効化でビルド時間を短縮
 
       - name: Install Linux Dependencies
         if: matrix.os == 'ubuntu-latest'
@@ -43,11 +43,13 @@ jobs:
           sudo apt-get install -y libarchive-tools libfuse2
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci # package-lock.json を元に厳密にインストール
 
       - name: Build application
-        # 引数全体をそのまま渡し、不要なパブリッシュを確実に止めます
-        run: npx electron-builder --publish never ${{ matrix.args }}
+        # コンパイル(tsc)が必要なプロジェクトなのでビルド後に実行
+        run: |
+          npm run build --if-present
+          npx electron-builder --publish never ${{ matrix.args }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CSC_IDENTITY_AUTO_DISCOVERY: false
@@ -55,8 +57,9 @@ jobs:
           ELECTRON_SKIP_NOTARIZATION: true
 
       - name: Upload to Release
-        uses: softprops/action-gh-release@v1
-        if: github.event_name == 'push'
+        uses: softprops/action-gh-release@v2
+        # タグプッシュ時のみリリースを作成・アップロード
+        if: startsWith(github.ref, 'refs/tags/')
         with:
           tag_name: ${{ github.ref_name }}
           name: Build ${{ github.ref_name }}
@@ -66,5 +69,6 @@ jobs:
             dist/*.AppImage
             dist/*.zip
           prerelease: true
+          generate_release_notes: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
