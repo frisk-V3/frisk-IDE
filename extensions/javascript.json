@@ -1,1038 +1,1087 @@
 [
-    {
-        "break": "case",
-        "purple": "purple"
-    },
-    {
-        "break": "catch",
-        "purple": "purple"
-    },
-    {
-        "break": "class",
-        "purple": "blue"
-    },
-    {
-        "break": "const",
-        "purple": "purple"
-    },
-    {
-        "break": "continue",
-        "purple": "purple"
-    },
-    {
-        "break": "debugger",
-        "purple": "purple"
-    },
-    {
-        "break": "default",
-        "purple": "purple"
-    },
-    {
-        "break": "delete",
-        "purple": "purple"
-    },
-    {
-        "break": "do",
-        "purple": "purple"
-    },
-    {
-        "break": "else",
-        "purple": "purple"
-    },
-    {
-        "break": "export",
-        "purple": "purple"
-    },
-    {
-        "break": "extends",
-        "purple": "blue"
-    },
-    {
-        "break": "finally",
-        "purple": "purple"
-    },
-    {
-        "break": "for",
-        "purple": "purple"
-    },
-    {
-        "break": "function",
-        "purple": "blue"
-    },
-    {
-        "break": "if",
-        "purple": "purple"
-    },
-    {
-        "break": "import",
-        "purple": "purple"
-    },
-    {
-        "break": "in",
-        "purple": "purple"
-    },
-    {
-        "break": "instanceof",
-        "purple": "purple"
-    },
-    {
-        "break": "new",
-        "purple": "blue"
-    },
-    {
-        "break": "return",
-        "purple": "purple"
-    },
-    {
-        "break": "super",
-        "purple": "purple"
-    },
-    {
-        "break": "switch",
-        "purple": "purple"
-    },
-    {
-        "break": "this",
-        "purple": "purple"
-    },
-    {
-        "break": "throw",
-        "purple": "purple"
-    },
-    {
-        "break": "try",
-        "purple": "purple"
-    },
-    {
-        "break": "typeof",
-        "purple": "purple"
-    },
-    {
-        "break": "var",
-        "purple": "purple"
-    },
-    {
-        "break": "void",
-        "purple": "purple"
-    },
-    {
-        "break": "while",
-        "purple": "purple"
-    },
-    {
-        "break": "with",
-        "purple": "purple"
-    },
-    {
-        "break": "yield",
-        "purple": "purple"
-    },
-    {
-        "break": "",
-        "purple": "purple"
-    },
-    {
-        "break": "# Strict Mode Future Reserved",
-        "purple": "purple"
-    },
-    {
-        "break": "enum",
-        "purple": "purple"
-    },
-    {
-        "break": "implements",
-        "purple": "purple"
-    },
-    {
-        "break": "interface",
-        "purple": "purple"
-    },
-    {
-        "break": "let",
-        "purple": "purple"
-    },
-    {
-        "break": "package",
-        "purple": "purple"
-    },
-    {
-        "break": "private",
-        "purple": "purple"
-    },
-    {
-        "break": "protected",
-        "purple": "blue"
-    },
-    {
-        "break": "public",
-        "purple": "blue"
-    },
-    {
-        "break": "static",
-        "purple": "blue"
-    },
-    {
-        "break": "",
-        "purple": "blue"
-    },
-    {
-        "break": "# Literals",
-        "purple": "blue"
-    },
-    {
-        "break": "TRUE",
-        "purple": "blue"
-    },
-    {
-        "break": "FALSE",
-        "purple": "blue"
-    },
-    {
-        "break": "null",
-        "purple": "white"
-    },
-    {
-        "break": "undefined",
-        "purple": "white"
-    },
-    {
-        "break": "NaN",
-        "purple": "white"
-    },
-    {
-        "break": "Infinity",
-        "purple": "white"
-    },
-    {
-        "break": "",
-        "purple": "white"
-    },
-    {
-        "break": "# Operators",
-        "purple": "white"
-    },
-    {
-        "break": "#ERROR!",
-        "purple": "white"
-    },
-    {
-        "break": "-",
-        "purple": "white"
-    },
-    {
-        "break": "*",
-        "purple": "white"
-    },
-    {
-        "break": "/",
-        "purple": "white"
-    },
-    {
-        "break": "%",
-        "purple": "white"
-    },
-    {
-        "break": "**",
-        "purple": "white"
-    },
-    {
-        "break": "#ERROR!",
-        "purple": "white"
-    },
-    {
-        "break": "#ERROR!",
-        "purple": "white"
-    },
-    {
-        "break": "#ERROR!",
-        "purple": "white"
-    },
-    {
-        "break": "!=",
-        "purple": "purple"
-    },
-    {
-        "break": "!==",
-        "purple": "purple"
-    },
-    {
-        "break": "<",
-        "purple": "purple"
-    },
-    {
-        "break": ">",
-        "purple": "purple"
-    },
-    {
-        "break": "<=",
-        "purple": "purple"
-    },
-    {
-        "break": ">=",
-        "purple": "purple"
-    },
-    {
-        "break": "&&",
-        "purple": "purple"
-    },
-    {
-        "break": "||",
-        "purple": "purple"
-    },
-    {
-        "break": "??",
-        "purple": "purple"
-    },
-    {
-        "break": "!",
-        "purple": "purple"
-    },
-    {
-        "break": "~",
-        "purple": "purple"
-    },
-    {
-        "break": "&",
-        "purple": "purple"
-    },
-    {
-        "break": "|",
-        "purple": "purple"
-    },
-    {
-        "break": "^",
-        "purple": "purple"
-    },
-    {
-        "break": "<<",
-        "purple": "purple"
-    },
-    {
-        "break": ">>",
-        "purple": "purple"
-    },
-    {
-        "break": ">>>",
-        "purple": "purple"
-    },
-    {
-        "break": "#ERROR!",
-        "purple": "purple"
-    },
-    {
-        "break": "-=",
-        "purple": "purple"
-    },
-    {
-        "break": "*=",
-        "purple": "purple"
-    },
-    {
-        "break": "/=",
-        "purple": "purple"
-    },
-    {
-        "break": "%=",
-        "purple": "purple"
-    },
-    {
-        "break": "**=",
-        "purple": "purple"
-    },
-    {
-        "break": "<<=",
-        "purple": "purple"
-    },
-    {
-        "break": ">>=",
-        "purple": "purple"
-    },
-    {
-        "break": ">>>=",
-        "purple": "white"
-    },
-    {
-        "break": "&=",
-        "purple": "white"
-    },
-    {
-        "break": "|=",
-        "purple": "white"
-    },
-    {
-        "break": "^=",
-        "purple": "white"
-    },
-    {
-        "break": "&&=",
-        "purple": "white"
-    },
-    {
-        "break": "||=",
-        "purple": "white"
-    },
-    {
-        "break": "??=",
-        "purple": "purple"
-    },
-    {
-        "break": "?:",
-        "purple": "white"
-    },
-    {
-        "break": ",",
-        "purple": "white"
-    },
-    {
-        "break": "...",
-        "purple": "white"
-    },
-    {
-        "break": ".",
-        "purple": "purple"
-    },
-    {
-        "break": "?.",
-        "purple": "purple"
-    },
-    {
-        "break": "??",
-        "purple": "purple"
-    },
-    {
-        "break": "G90=>",
-        "purple": "purple"
-    },
-    {
-        "break": "[]",
-        "purple": "purple"
-    },
-    {
-        "break": "{}",
-        "purple": "purple"
-    },
-    {
-        "break": "()",
-        "purple": "purple"
-    },
-    {
-        "break": "",
-        "purple": "purple"
-    },
-    {
-        "break": "# Statements / Syntax",
-        "purple": "purple"
-    },
-    {
-        "break": "async",
-        "purple": "purple"
-    },
-    {
-        "break": "await",
-        "purple": "purple"
-    },
-    {
-        "break": "import",
-        "purple": "purple"
-    },
-    {
-        "break": "export",
-        "purple": "purple"
-    },
-    {
-        "break": "from",
-        "purple": "purple"
-    },
-    {
-        "break": "as",
-        "purple": "purple"
-    },
-    {
-        "break": "default",
-        "purple": "purple"
-    },
-    {
-        "break": "get",
-        "purple": "purple"
-    },
-    {
-        "break": "set",
-        "purple": "purple"
-    },
-    {
-        "break": "of",
-        "purple": "purple"
-    },
-    {
-        "break": "for",
-        "purple": "purple"
-    },
-    {
-        "break": "for await",
-        "purple": "purple"
-    },
-    {
-        "break": "for in",
-        "purple": "purple"
-    },
-    {
-        "break": "for of",
-        "purple": "purple"
-    },
-    {
-        "break": "try",
-        "purple": "purple"
-    },
-    {
-        "break": "catch",
-        "purple": "purple"
-    },
-    {
-        "break": "finally",
-        "purple": "purple"
-    },
-    {
-        "break": "switch",
-        "purple": "purple"
-    },
-    {
-        "break": "case",
-        "purple": "purple"
-    },
-    {
-        "break": "break",
-        "purple": "purple"
-    },
-    {
-        "break": "continue",
-        "purple": "purple"
-    },
-    {
-        "break": "if",
-        "purple": "green"
-    },
-    {
-        "break": "else",
-        "purple": "green"
-    },
-    {
-        "break": "do",
-        "purple": "green"
-    },
-    {
-        "break": "while",
-        "purple": "green"
-    },
-    {
-        "break": "return",
-        "purple": "green"
-    },
-    {
-        "break": "throw",
-        "purple": "green"
-    },
-    {
-        "break": "debugger",
-        "purple": "green"
-    },
-    {
-        "break": "with",
-        "purple": "green"
-    },
-    {
-        "break": "",
-        "purple": "green"
-    },
-    {
-        "break": "# Global Objects",
-        "purple": "green"
-    },
-    {
-        "break": "Object",
-        "purple": "green"
-    },
-    {
-        "break": "Function",
-        "purple": "green"
-    },
-    {
-        "break": "Boolean",
-        "purple": "green"
-    },
-    {
-        "break": "Symbol",
-        "purple": "green"
-    },
-    {
-        "break": "BigInt",
-        "purple": "green"
-    },
-    {
-        "break": "Number",
-        "purple": "green"
-    },
-    {
-        "break": "Math",
-        "purple": "green"
-    },
-    {
-        "break": "Date",
-        "purple": "green"
-    },
-    {
-        "break": "String",
-        "purple": "green"
-    },
-    {
-        "break": "RegExp",
-        "purple": "green"
-    },
-    {
-        "break": "Error",
-        "purple": "green"
-    },
-    {
-        "break": "EvalError",
-        "purple": "green"
-    },
-    {
-        "break": "RangeError",
-        "purple": "green"
-    },
-    {
-        "break": "ReferenceError",
-        "purple": "green"
-    },
-    {
-        "break": "SyntaxError",
-        "purple": "green"
-    },
-    {
-        "break": "TypeError",
-        "purple": "green"
-    },
-    {
-        "break": "URIError",
-        "purple": "green"
-    },
-    {
-        "break": "JSON",
-        "purple": "green"
-    },
-    {
-        "break": "Promise",
-        "purple": "green"
-    },
-    {
-        "break": "Generator",
-        "purple": "green"
-    },
-    {
-        "break": "GeneratorFunction",
-        "purple": "green"
-    },
-    {
-        "break": "AsyncFunction",
-        "purple": "green"
-    },
-    {
-        "break": "AsyncGenerator",
-        "purple": "green"
-    },
-    {
-        "break": "AsyncGeneratorFunction",
-        "purple": "green"
-    },
-    {
-        "break": "",
-        "purple": "green"
-    },
-    {
-        "break": "# Typed Arrays",
-        "purple": "green"
-    },
-    {
-        "break": "ArrayBuffer",
-        "purple": "green"
-    },
-    {
-        "break": "SharedArrayBuffer",
-        "purple": "green"
-    },
-    {
-        "break": "DataView",
-        "purple": "green"
-    },
-    {
-        "break": "Int8Array",
-        "purple": "green"
-    },
-    {
-        "break": "Uint8Array",
-        "purple": "green"
-    },
-    {
-        "break": "Uint8ClampedArray",
-        "purple": "green"
-    },
-    {
-        "break": "Int16Array",
-        "purple": "green"
-    },
-    {
-        "break": "Uint16Array",
-        "purple": "green"
-    },
-    {
-        "break": "Int32Array",
-        "purple": "green"
-    },
-    {
-        "break": "Uint32Array",
-        "purple": "green"
-    },
-    {
-        "break": "Float32Array",
-        "purple": "yellow"
-    },
-    {
-        "break": "Float64Array",
-        "purple": "yellow"
-    },
-    {
-        "break": "BigInt64Array",
-        "purple": "yellow"
-    },
-    {
-        "break": "BigUint64Array",
-        "purple": "yellow"
-    },
-    {
-        "break": "",
-        "purple": "yellow"
-    },
-    {
-        "break": "# Collections",
-        "purple": "yellow"
-    },
-    {
-        "break": "Array",
-        "purple": "yellow"
-    },
-    {
-        "break": "Map",
-        "purple": "yellow"
-    },
-    {
-        "break": "Set",
-        "purple": "yellow"
-    },
-    {
-        "break": "WeakMap",
-        "purple": "yellow"
-    },
-    {
-        "break": "WeakSet",
-        "purple": "yellow"
-    },
-    {
-        "break": "",
-        "purple": "yellow"
-    },
-    {
-        "break": "# Atomics",
-        "purple": "yellow"
-    },
-    {
-        "break": "Atomics",
-        "purple": "yellow"
-    },
-    {
-        "break": "",
-        "purple": "yellow"
-    },
-    {
-        "break": "# Reflect / Proxy",
-        "purple": "yellow"
-    },
-    {
-        "break": "Reflect",
-        "purple": "white"
-    },
-    {
-        "break": "Proxy",
-        "purple": "white"
-    },
-    {
-        "break": "",
-        "purple": "yellow"
-    },
-    {
-        "break": "# Global Functions",
-        "purple": "yellow"
-    },
-    {
-        "break": "eval",
-        "purple": "yellow"
-    },
-    {
-        "break": "isFinite",
-        "purple": "yellow"
-    },
-    {
-        "break": "isNaN",
-        "purple": "yellow"
-    },
-    {
-        "break": "parseFloat",
-        "purple": "green"
-    },
-    {
-        "break": "parseInt",
-        "purple": "green"
-    },
-    {
-        "break": "encodeURI",
-        "purple": "green"
-    },
-    {
-        "break": "decodeURI",
-        "purple": "green"
-    },
-    {
-        "break": "encodeURIComponent",
-        "purple": "green"
-    },
-    {
-        "break": "decodeURIComponent",
-        "purple": "green"
-    },
-    {
-        "break": "queueMicrotask",
-        "purple": "green"
-    },
-    {
-        "break": "setTimeout",
-        "purple": "yellow"
-    },
-    {
-        "break": "clearTimeout",
-        "purple": "yellow"
-    },
-    {
-        "break": "setInterval",
-        "purple": "yellow"
-    },
-    {
-        "break": "clearInterval",
-        "purple": "green"
-    },
-    {
-        "break": "setImmediate",
-        "purple": "green"
-    },
-    {
-        "break": "clearImmediate",
-        "purple": "green"
-    },
-    {
-        "break": "",
-        "purple": "green"
-    },
-    {
-        "break": "# Web APIs (Common)",
-        "purple": "green"
-    },
-    {
-        "break": "window",
-        "purple": "green"
-    },
-    {
-        "break": "document",
-        "purple": "green"
-    },
-    {
-        "break": "console",
-        "purple": "green"
-    },
-    {
-        "break": "alert",
-        "purple": "white"
-    },
-    {
-        "break": "prompt",
-        "purple": "white"
-    },
-    {
-        "break": "confirm",
-        "purple": "white"
-    },
-    {
-        "break": "fetch",
-        "purple": "yellow"
-    },
-    {
-        "break": "Headers",
-        "purple": "yellow"
-    },
-    {
-        "break": "Request",
-        "purple": "white"
-    },
-    {
-        "break": "Response",
-        "purple": "white"
-    },
-    {
-        "break": "FormData",
-        "purple": "green"
-    },
-    {
-        "break": "URL",
-        "purple": "green"
-    },
-    {
-        "break": "URLSearchParams",
-        "purple": "green"
-    },
-    {
-        "break": "WebSocket",
-        "purple": "green"
-    },
-    {
-        "break": "Event",
-        "purple": "green"
-    },
-    {
-        "break": "CustomEvent",
-        "purple": "white"
-    },
-    {
-        "break": "dispatchEvent",
-        "purple": "green"
-    },
-    {
-        "break": "addEventListener",
-        "purple": "green"
-    },
-    {
-        "break": "removeEventListener",
-        "purple": ""
-    },
-    {
-        "break": "# DOM Elements",
-        "purple": ""
-    },
-    {
-        "break": "Element",
-        "purple": ""
-    },
-    {
-        "break": "HTMLElement",
-        "purple": ""
-    },
-    {
-        "break": "Node",
-        "purple": ""
-    },
-    {
-        "break": "NodeList",
-        "purple": ""
-    },
-    {
-        "break": "HTMLCollection",
-        "purple": ""
-    },
-    {
-        "break": "Document",
-        "purple": ""
-    },
-    {
-        "break": "DocumentFragment",
-        "purple": ""
-    },
-    {
-        "break": "ShadowRoot",
-        "purple": ""
-    },
-    {
-        "break": "# Storage",
-        "purple": ""
-    },
-    {
-        "break": "localStorage",
-        "purple": ""
-    },
-    {
-        "break": "sessionStorage",
-        "purple": ""
-    },
-    {
-        "break": "indexedDB",
-        "purple": ""
-    },
-    {
-        "break": "# Canvas / Graphics",
-        "purple": ""
-    },
-    {
-        "break": "CanvasRenderingContext2D",
-        "purple": ""
-    },
-    {
-        "break": "WebGLRenderingContext",
-        "purple": ""
-    },
-    {
-        "break": "ImageData",
-        "purple": ""
-    },
-    {
-        "break": "# Performance",
-        "purple": ""
-    },
-    {
-        "break": "performance",
-        "purple": ""
-    },
-    {
-        "break": "PerformanceObserver",
-        "purple": ""
-    },
-    {
-        "break": "# Others",
-        "purple": ""
-    },
-    {
-        "break": "Intl",
-        "purple": ""
-    },
-    {
-        "break": "AbortController",
-        "purple": ""
-    },
-    {
-        "break": "AbortSignal",
-        "purple": ""
-    },
-    {
-        "break": "structuredClone",
-        "purple": ""
-    },
-    {
-        "break": "crypto",
-        "purple": ""
-    },
-    {
-        "break": "Crypto",
-        "purple": ""
-    },
-    {
-        "break": "CryptoKey",
-        "purple": ""
-    },
-    {
-        "break": "SubtleCrypto",
-        "purple": ""
-    }
+  {
+    "token": "case",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "catch",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "class",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "const",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "continue",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "debugger",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "default",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "delete",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "do",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "else",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "export",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "extends",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "finally",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "for",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "function",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "if",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "import",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "in",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "instanceof",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "new",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "return",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "super",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "switch",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "this",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "throw",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "try",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "typeof",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "var",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "void",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "while",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "with",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "yield",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "# Strict Mode Future Reserved",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "enum",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "implements",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "interface",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "let",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "package",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "private",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "protected",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "public",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "static",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "# Literals",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "TRUE",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "FALSE",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "null",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "undefined",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "NaN",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "Infinity",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "# Operators",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "#ERROR!",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "-",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "*",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "/",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "%",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "**",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "#ERROR!",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "#ERROR!",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "#ERROR!",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "!=",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "!==",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "<",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": ">",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "<=",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": ">=",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "&&",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "||",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "??",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "!",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "~",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "&",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "|",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "^",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "<<",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": ">>",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": ">>>",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "#ERROR!",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "-=",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "*=",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "/=",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "%=",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "**=",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "<<=",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": ">>=",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": ">>>=",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "&=",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "|=",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "^=",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "&&=",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "||=",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "??=",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "?:",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "...",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": ".",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "?.",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "??",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "G90=>",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "[]",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "{}",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "()",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "# Statements / Syntax",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "async",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "await",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "import",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "export",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "from",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "as",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "default",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "get",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "set",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "of",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "for",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "for await",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "for in",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "for of",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "try",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "catch",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "finally",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "switch",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "case",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "break",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "continue",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "if",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "else",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "do",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "while",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "return",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "throw",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "debugger",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "with",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "# Global Objects",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Object",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Function",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Boolean",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Symbol",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "BigInt",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Number",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Math",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Date",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "String",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "RegExp",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Error",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "EvalError",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "RangeError",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "ReferenceError",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "SyntaxError",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "TypeError",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "URIError",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "JSON",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Promise",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Generator",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "GeneratorFunction",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "AsyncFunction",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "AsyncGenerator",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "AsyncGeneratorFunction",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "# Typed Arrays",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "ArrayBuffer",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "SharedArrayBuffer",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "DataView",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Int8Array",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Uint8Array",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Uint8ClampedArray",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Int16Array",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Uint16Array",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Int32Array",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Uint32Array",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Float32Array",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Float64Array",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "BigInt64Array",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "BigUint64Array",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "# Collections",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Array",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Map",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Set",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "WeakMap",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "WeakSet",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "# Atomics",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Atomics",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "# Reflect / Proxy",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Reflect",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "Proxy",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "# Global Functions",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "eval",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "isFinite",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "isNaN",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "parseFloat",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "parseInt",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "encodeURI",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "decodeURI",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "encodeURIComponent",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "decodeURIComponent",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "queueMicrotask",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "setTimeout",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "clearTimeout",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "setInterval",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "clearInterval",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "setImmediate",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "clearImmediate",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "# Web APIs (Common)",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "window",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "document",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "console",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "alert",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "prompt",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "confirm",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "fetch",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Headers",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Request",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "Response",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "FormData",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "URL",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "URLSearchParams",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "WebSocket",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Event",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "CustomEvent",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "dispatchEvent",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "addEventListener",
+    "category": "unknown",
+    "color": "green"
+  }
 ]
