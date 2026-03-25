@@ -1,2 +1,2 @@
-# V3-Editor
+# frisk-IDE
 作り途中です
