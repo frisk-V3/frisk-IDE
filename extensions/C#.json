@@ -1,1114 +1,932 @@
 [
-    {
-        "Built-in Types,bool": "Built-in Types,byte",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Built-in Types,char",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Built-in Types,decimal",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Built-in Types,double",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Built-in Types,float",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Built-in Types,int",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Built-in Types,long",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Built-in Types,nint",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Built-in Types,nuint",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Built-in Types,object",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Built-in Types,sbyte",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Built-in Types,short",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Built-in Types,string",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Built-in Types,uint",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Built-in Types,ulong",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Built-in Types,ushort",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Built-in Types,void",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Control Flow,break",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Control Flow,case",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Control Flow,catch",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Control Flow,continue",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Control Flow,default",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Control Flow,do",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Control Flow,else",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Control Flow,finally",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Control Flow,for",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Control Flow,foreach",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Control Flow,goto",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Control Flow,if",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Control Flow,return",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Control Flow,switch",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Control Flow,throw",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Control Flow,try",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Control Flow,while",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Control Flow,yield",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Modifiers & Definitions,abstract",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Modifiers & Definitions,async",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Modifiers & Definitions,await",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Modifiers & Definitions,base",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Modifiers & Definitions,class",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Modifiers & Definitions,const",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Modifiers & Definitions,delegate",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Modifiers & Definitions,enum",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Modifiers & Definitions,event",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Modifiers & Definitions,explicit",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Modifiers & Definitions,extern",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Modifiers & Definitions,file",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Modifiers & Definitions,fixed",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Modifiers & Definitions,implicit",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Modifiers & Definitions,interface",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Modifiers & Definitions,internal",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Modifiers & Definitions,new",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Modifiers & Definitions,operator",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Modifiers & Definitions,override",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Modifiers & Definitions,partial",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Modifiers & Definitions,private",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Modifiers & Definitions,protected",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Modifiers & Definitions,public",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Modifiers & Definitions,readonly",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Modifiers & Definitions,record",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Modifiers & Definitions,sealed",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Modifiers & Definitions,static",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Modifiers & Definitions,struct",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Modifiers & Definitions,this",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Modifiers & Definitions,unsafe",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Modifiers & Definitions,virtual",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Modifiers & Definitions,volatile",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Logic & Operators,as",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Logic & Operators,checked",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Logic & Operators,is",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Logic & Operators,lock",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Logic & Operators,nameof",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Logic & Operators,out",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Logic & Operators,params",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Logic & Operators,ref",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Logic & Operators,sizeof",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Logic & Operators,stackalloc",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Logic & Operators,typeof",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Logic & Operators,unchecked",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Logic & Operators,using",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "LINQ & Contextual,add",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "LINQ & Contextual,alias",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "LINQ & Contextual,ascending",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "LINQ & Contextual,by",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "LINQ & Contextual,descending",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "LINQ & Contextual,dynamic",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "LINQ & Contextual,equals",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "LINQ & Contextual,from",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "LINQ & Contextual,get",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "LINQ & Contextual,global",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "LINQ & Contextual,group",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "LINQ & Contextual,init",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "LINQ & Contextual,into",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "LINQ & Contextual,join",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "LINQ & Contextual,let",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "LINQ & Contextual,managed",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "LINQ & Contextual,on",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "LINQ & Contextual,orderby",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "LINQ & Contextual,remove",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "LINQ & Contextual,select",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "LINQ & Contextual,set",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "LINQ & Contextual,unmanaged",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "LINQ & Contextual,value",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "LINQ & Contextual,var",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "LINQ & Contextual,when",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "LINQ & Contextual,where",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "LINQ & Contextual,with",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Literals,false",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Literals,null",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Literals,true",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Symbols,+",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Symbols,-",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Symbols,*",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Symbols,/",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Symbols,%",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Symbols,&",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Symbols,|",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Symbols,^",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Symbols,!",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Symbols,~",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Symbols,=",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Symbols,<",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Symbols,>",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Symbols,?",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Symbols,??",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Symbols,::",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Symbols,?.",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Symbols,=>",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Symbols,++",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Symbols,--",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Symbols,&&",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Symbols,||",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Symbols,<<",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Symbols,>>",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Symbols,==",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Symbols,!=",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Symbols,<=",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Symbols,>=",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Symbols,+=",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Symbols,-=",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Symbols,*=",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Symbols,/=",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Symbols,%=",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Symbols,&=",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Symbols,|=",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Symbols,^=",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Symbols,<<=",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Symbols,>>=",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Symbols,??=",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Symbols,..",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Category,Word",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Preprocessor,#if",
-        "blue": "white"
-    },
-    {
-        "Built-in Types,bool": "Preprocessor,#else",
-        "blue": "gray"
-    },
-    {
-        "Built-in Types,bool": "Preprocessor,#elif",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Preprocessor,#endif",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Preprocessor,#define",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Preprocessor,#undef",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Preprocessor,#warning",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Preprocessor,#error",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Preprocessor,#line",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Preprocessor,#region",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Preprocessor,#endregion",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Preprocessor,#pragma",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Preprocessor,#nullable",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Category,Word",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "DocComment,summary",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "DocComment,remarks",
-        "blue": "gray"
-    },
-    {
-        "Built-in Types,bool": "DocComment,param",
-        "blue": "gray"
-    },
-    {
-        "Built-in Types,bool": "DocComment,returns",
-        "blue": "gray"
-    },
-    {
-        "Built-in Types,bool": "DocComment,exception",
-        "blue": "gray"
-    },
-    {
-        "Built-in Types,bool": "DocComment,example",
-        "blue": "gray"
-    },
-    {
-        "Built-in Types,bool": "DocComment,code",
-        "blue": "gray"
-    },
-    {
-        "Built-in Types,bool": "DocComment,see",
-        "blue": "gray"
-    },
-    {
-        "Built-in Types,bool": "DocComment,seealso",
-        "blue": "gray"
-    },
-    {
-        "Built-in Types,bool": "DocComment,inheritdoc",
-        "blue": "gray"
-    },
-    {
-        "Built-in Types,bool": "DocComment,list",
-        "blue": "gray"
-    },
-    {
-        "Built-in Types,bool": "DocComment,item",
-        "blue": "gray"
-    },
-    {
-        "Built-in Types,bool": "DocComment,description",
-        "blue": "gray"
-    },
-    {
-        "Built-in Types,bool": "DocComment,typeparam",
-        "blue": "gray"
-    },
-    {
-        "Built-in Types,bool": "DocComment,value",
-        "blue": "gray"
-    },
-    {
-        "Built-in Types,bool": "Category,Word",
-        "blue": "gray"
-    },
-    {
-        "Built-in Types,bool": "Common Class,Console",
-        "blue": "gray"
-    },
-    {
-        "Built-in Types,bool": "Common Class,Math",
-        "blue": "gray"
-    },
-    {
-        "Built-in Types,bool": "Common Class,DateTime",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Common Class,TimeSpan",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Common Class,Guid",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Common Class,String",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Common Class,StringBuilder",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Common Class,Environment",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Common Class,Convert",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Collection,List",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Collection,Dictionary",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Collection,HashSet",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Collection,Queue",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Collection,Stack",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Collection,IEnumerable",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Collection,ICollection",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Collection,IList",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "IO/System,File",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "IO/System,Directory",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "IO/System,Path",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "IO/System,Stream",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "IO/System,Task",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "IO/System,Thread",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "IO/System,Exception",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "IO/System,Attribute",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Category,Word",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,Serializable",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,Obsolete",
-        "blue": "gray"
-    },
-    {
-        "Built-in Types,bool": "Attribute,Conditional",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,AttributeUsage",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,Flags",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,NonSerialized",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,DllImport",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,MarshalAs",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,StructLayout",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,JsonPropertyName",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,Required",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,StringLength",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,Range",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,Key",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,Display",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Category,Word",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,Serializable",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,Obsolete",
-        "blue": "gray"
-    },
-    {
-        "Built-in Types,bool": "Attribute,Conditional",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,AttributeUsage",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,Flags",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,DllImport",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,MarshalAs",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,StructLayout",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,FieldOffset",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,NonSerialized",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,ThreadStatic",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,ContextStatic",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,CLSCompliant",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,CallerMemberName",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,CallerFilePath",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,CallerLineNumber",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,CallerArgumentExpression",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,MethodImpl",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,InternalsVisibleTo",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,RequiredMember",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,SetsRequiredMembers",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,InterpolatedStringHandler",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,ModuleInitializer",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,SkipLocalsInit",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,UnscopedRef",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,OverloadResolutionPriority",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,Experimental",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,AsyncMethodBuilder",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,EnumeratorCancellation",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Attribute,CollectionBuilder",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Category,Word",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Snippet,for",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Snippet,foreach",
-        "blue": "lightgreen"
-    },
-    {
-        "Built-in Types,bool": "Snippet,while",
-        "blue": "gray"
-    },
-    {
-        "Built-in Types,bool": "Snippet,do",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Snippet,if",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Snippet,else",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Snippet,switch",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Snippet,try",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Snippet,catch",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Snippet,finally",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Snippet,using",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Snippet,lock",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Snippet,class",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Snippet,struct",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Snippet,interface",
-        "blue": "purple"
-    },
-    {
-        "Built-in Types,bool": "Snippet,enum",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Snippet,prop",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Snippet,propfull",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Snippet,propg",
-        "blue": "blue"
-    },
-    {
-        "Built-in Types,bool": "Snippet,ctor",
-        "blue": "yellow"
-    },
-    {
-        "Built-in Types,bool": "Snippet,cw",
-        "blue": "yellow"
-    },
-    {
-        "Built-in Types,bool": "Snippet,sim",
-        "blue": "yellow"
-    },
-    {
-        "Built-in Types,bool": "Snippet,svm",
-        "blue": "yellow"
-    },
-    {
-        "Built-in Types,bool": "Snippet,indexer",
-        "blue": "yellow"
-    }
+  {
+    "token": "byte",
+    "category": "Built-in Types",
+    "color": "blue"
+  },
+  {
+    "token": "char",
+    "category": "Built-in Types",
+    "color": "blue"
+  },
+  {
+    "token": "decimal",
+    "category": "Built-in Types",
+    "color": "blue"
+  },
+  {
+    "token": "double",
+    "category": "Built-in Types",
+    "color": "blue"
+  },
+  {
+    "token": "float",
+    "category": "Built-in Types",
+    "color": "blue"
+  },
+  {
+    "token": "int",
+    "category": "Built-in Types",
+    "color": "blue"
+  },
+  {
+    "token": "long",
+    "category": "Built-in Types",
+    "color": "blue"
+  },
+  {
+    "token": "nint",
+    "category": "Built-in Types",
+    "color": "blue"
+  },
+  {
+    "token": "nuint",
+    "category": "Built-in Types",
+    "color": "blue"
+  },
+  {
+    "token": "object",
+    "category": "Built-in Types",
+    "color": "blue"
+  },
+  {
+    "token": "sbyte",
+    "category": "Built-in Types",
+    "color": "blue"
+  },
+  {
+    "token": "short",
+    "category": "Built-in Types",
+    "color": "blue"
+  },
+  {
+    "token": "string",
+    "category": "Built-in Types",
+    "color": "blue"
+  },
+  {
+    "token": "uint",
+    "category": "Built-in Types",
+    "color": "blue"
+  },
+  {
+    "token": "ulong",
+    "category": "Built-in Types",
+    "color": "blue"
+  },
+  {
+    "token": "ushort",
+    "category": "Built-in Types",
+    "color": "blue"
+  },
+  {
+    "token": "void",
+    "category": "Built-in Types",
+    "color": "blue"
+  },
+  {
+    "token": "break",
+    "category": "Control Flow",
+    "color": "purple"
+  },
+  {
+    "token": "case",
+    "category": "Control Flow",
+    "color": "purple"
+  },
+  {
+    "token": "catch",
+    "category": "Control Flow",
+    "color": "purple"
+  },
+  {
+    "token": "continue",
+    "category": "Control Flow",
+    "color": "purple"
+  },
+  {
+    "token": "default",
+    "category": "Control Flow",
+    "color": "purple"
+  },
+  {
+    "token": "do",
+    "category": "Control Flow",
+    "color": "purple"
+  },
+  {
+    "token": "else",
+    "category": "Control Flow",
+    "color": "purple"
+  },
+  {
+    "token": "finally",
+    "category": "Control Flow",
+    "color": "purple"
+  },
+  {
+    "token": "for",
+    "category": "Control Flow",
+    "color": "purple"
+  },
+  {
+    "token": "foreach",
+    "category": "Control Flow",
+    "color": "purple"
+  },
+  {
+    "token": "goto",
+    "category": "Control Flow",
+    "color": "purple"
+  },
+  {
+    "token": "if",
+    "category": "Control Flow",
+    "color": "purple"
+  },
+  {
+    "token": "return",
+    "category": "Control Flow",
+    "color": "purple"
+  },
+  {
+    "token": "switch",
+    "category": "Control Flow",
+    "color": "purple"
+  },
+  {
+    "token": "throw",
+    "category": "Control Flow",
+    "color": "purple"
+  },
+  {
+    "token": "try",
+    "category": "Control Flow",
+    "color": "purple"
+  },
+  {
+    "token": "while",
+    "category": "Control Flow",
+    "color": "purple"
+  },
+  {
+    "token": "yield",
+    "category": "Control Flow",
+    "color": "purple"
+  },
+  {
+    "token": "abstract",
+    "category": "Modifiers & Definitions",
+    "color": "blue"
+  },
+  {
+    "token": "async",
+    "category": "Modifiers & Definitions",
+    "color": "blue"
+  },
+  {
+    "token": "await",
+    "category": "Modifiers & Definitions",
+    "color": "blue"
+  },
+  {
+    "token": "base",
+    "category": "Modifiers & Definitions",
+    "color": "blue"
+  },
+  {
+    "token": "class",
+    "category": "Modifiers & Definitions",
+    "color": "blue"
+  },
+  {
+    "token": "const",
+    "category": "Modifiers & Definitions",
+    "color": "blue"
+  },
+  {
+    "token": "delegate",
+    "category": "Modifiers & Definitions",
+    "color": "blue"
+  },
+  {
+    "token": "enum",
+    "category": "Modifiers & Definitions",
+    "color": "blue"
+  },
+  {
+    "token": "event",
+    "category": "Modifiers & Definitions",
+    "color": "blue"
+  },
+  {
+    "token": "explicit",
+    "category": "Modifiers & Definitions",
+    "color": "blue"
+  },
+  {
+    "token": "extern",
+    "category": "Modifiers & Definitions",
+    "color": "blue"
+  },
+  {
+    "token": "file",
+    "category": "Modifiers & Definitions",
+    "color": "blue"
+  },
+  {
+    "token": "fixed",
+    "category": "Modifiers & Definitions",
+    "color": "blue"
+  },
+  {
+    "token": "implicit",
+    "category": "Modifiers & Definitions",
+    "color": "blue"
+  },
+  {
+    "token": "interface",
+    "category": "Modifiers & Definitions",
+    "color": "blue"
+  },
+  {
+    "token": "internal",
+    "category": "Modifiers & Definitions",
+    "color": "blue"
+  },
+  {
+    "token": "new",
+    "category": "Modifiers & Definitions",
+    "color": "blue"
+  },
+  {
+    "token": "operator",
+    "category": "Modifiers & Definitions",
+    "color": "blue"
+  },
+  {
+    "token": "override",
+    "category": "Modifiers & Definitions",
+    "color": "blue"
+  },
+  {
+    "token": "partial",
+    "category": "Modifiers & Definitions",
+    "color": "blue"
+  },
+  {
+    "token": "private",
+    "category": "Modifiers & Definitions",
+    "color": "blue"
+  },
+  {
+    "token": "protected",
+    "category": "Modifiers & Definitions",
+    "color": "blue"
+  },
+  {
+    "token": "public",
+    "category": "Modifiers & Definitions",
+    "color": "blue"
+  },
+  {
+    "token": "readonly",
+    "category": "Modifiers & Definitions",
+    "color": "blue"
+  },
+  {
+    "token": "record",
+    "category": "Modifiers & Definitions",
+    "color": "blue"
+  },
+  {
+    "token": "sealed",
+    "category": "Modifiers & Definitions",
+    "color": "blue"
+  },
+  {
+    "token": "static",
+    "category": "Modifiers & Definitions",
+    "color": "blue"
+  },
+  {
+    "token": "struct",
+    "category": "Modifiers & Definitions",
+    "color": "blue"
+  },
+  {
+    "token": "this",
+    "category": "Modifiers & Definitions",
+    "color": "blue"
+  },
+  {
+    "token": "unsafe",
+    "category": "Modifiers & Definitions",
+    "color": "blue"
+  },
+  {
+    "token": "virtual",
+    "category": "Modifiers & Definitions",
+    "color": "blue"
+  },
+  {
+    "token": "volatile",
+    "category": "Modifiers & Definitions",
+    "color": "blue"
+  },
+  {
+    "token": "as",
+    "category": "Logic & Operators",
+    "color": "blue"
+  },
+  {
+    "token": "checked",
+    "category": "Logic & Operators",
+    "color": "blue"
+  },
+  {
+    "token": "is",
+    "category": "Logic & Operators",
+    "color": "blue"
+  },
+  {
+    "token": "lock",
+    "category": "Logic & Operators",
+    "color": "blue"
+  },
+  {
+    "token": "nameof",
+    "category": "Logic & Operators",
+    "color": "blue"
+  },
+  {
+    "token": "out",
+    "category": "Logic & Operators",
+    "color": "blue"
+  },
+  {
+    "token": "params",
+    "category": "Logic & Operators",
+    "color": "blue"
+  },
+  {
+    "token": "ref",
+    "category": "Logic & Operators",
+    "color": "blue"
+  },
+  {
+    "token": "sizeof",
+    "category": "Logic & Operators",
+    "color": "blue"
+  },
+  {
+    "token": "stackalloc",
+    "category": "Logic & Operators",
+    "color": "blue"
+  },
+  {
+    "token": "typeof",
+    "category": "Logic & Operators",
+    "color": "blue"
+  },
+  {
+    "token": "unchecked",
+    "category": "Logic & Operators",
+    "color": "blue"
+  },
+  {
+    "token": "using",
+    "category": "Logic & Operators",
+    "color": "blue"
+  },
+  {
+    "token": "add",
+    "category": "LINQ & Contextual",
+    "color": "blue"
+  },
+  {
+    "token": "alias",
+    "category": "LINQ & Contextual",
+    "color": "blue"
+  },
+  {
+    "token": "ascending",
+    "category": "LINQ & Contextual",
+    "color": "blue"
+  },
+  {
+    "token": "by",
+    "category": "LINQ & Contextual",
+    "color": "blue"
+  },
+  {
+    "token": "descending",
+    "category": "LINQ & Contextual",
+    "color": "blue"
+  },
+  {
+    "token": "dynamic",
+    "category": "LINQ & Contextual",
+    "color": "blue"
+  },
+  {
+    "token": "equals",
+    "category": "LINQ & Contextual",
+    "color": "blue"
+  },
+  {
+    "token": "from",
+    "category": "LINQ & Contextual",
+    "color": "blue"
+  },
+  {
+    "token": "get",
+    "category": "LINQ & Contextual",
+    "color": "blue"
+  },
+  {
+    "token": "global",
+    "category": "LINQ & Contextual",
+    "color": "blue"
+  },
+  {
+    "token": "group",
+    "category": "LINQ & Contextual",
+    "color": "blue"
+  },
+  {
+    "token": "init",
+    "category": "LINQ & Contextual",
+    "color": "blue"
+  },
+  {
+    "token": "into",
+    "category": "LINQ & Contextual",
+    "color": "blue"
+  },
+  {
+    "token": "join",
+    "category": "LINQ & Contextual",
+    "color": "blue"
+  },
+  {
+    "token": "let",
+    "category": "LINQ & Contextual",
+    "color": "blue"
+  },
+  {
+    "token": "managed",
+    "category": "LINQ & Contextual",
+    "color": "blue"
+  },
+  {
+    "token": "on",
+    "category": "LINQ & Contextual",
+    "color": "blue"
+  },
+  {
+    "token": "orderby",
+    "category": "LINQ & Contextual",
+    "color": "blue"
+  },
+  {
+    "token": "remove",
+    "category": "LINQ & Contextual",
+    "color": "blue"
+  },
+  {
+    "token": "select",
+    "category": "LINQ & Contextual",
+    "color": "blue"
+  },
+  {
+    "token": "set",
+    "category": "LINQ & Contextual",
+    "color": "blue"
+  },
+  {
+    "token": "unmanaged",
+    "category": "LINQ & Contextual",
+    "color": "blue"
+  },
+  {
+    "token": "value",
+    "category": "LINQ & Contextual",
+    "color": "blue"
+  },
+  {
+    "token": "var",
+    "category": "LINQ & Contextual",
+    "color": "blue"
+  },
+  {
+    "token": "when",
+    "category": "LINQ & Contextual",
+    "color": "blue"
+  },
+  {
+    "token": "where",
+    "category": "LINQ & Contextual",
+    "color": "blue"
+  },
+  {
+    "token": "with",
+    "category": "LINQ & Contextual",
+    "color": "blue"
+  },
+  {
+    "token": "false",
+    "category": "Literals",
+    "color": "blue"
+  },
+  {
+    "token": "null",
+    "category": "Literals",
+    "color": "blue"
+  },
+  {
+    "token": "true",
+    "category": "Literals",
+    "color": "blue"
+  },
+  {
+    "token": "+",
+    "category": "Symbols",
+    "color": "blue"
+  },
+  {
+    "token": "-",
+    "category": "Symbols",
+    "color": "blue"
+  },
+  {
+    "token": "*",
+    "category": "Symbols",
+    "color": "blue"
+  },
+  {
+    "token": "/",
+    "category": "Symbols",
+    "color": "blue"
+  },
+  {
+    "token": "%",
+    "category": "Symbols",
+    "color": "blue"
+  },
+  {
+    "token": "&",
+    "category": "Symbols",
+    "color": "blue"
+  },
+  {
+    "token": "|",
+    "category": "Symbols",
+    "color": "white"
+  },
+  {
+    "token": "^",
+    "category": "Symbols",
+    "color": "white"
+  },
+  {
+    "token": "!",
+    "category": "Symbols",
+    "color": "white"
+  },
+  {
+    "token": "~",
+    "category": "Symbols",
+    "color": "white"
+  },
+  {
+    "token": "=",
+    "category": "Symbols",
+    "color": "white"
+  },
+  {
+    "token": "<",
+    "category": "Symbols",
+    "color": "white"
+  },
+  {
+    "token": ">",
+    "category": "Symbols",
+    "color": "white"
+  },
+  {
+    "token": "?",
+    "category": "Symbols",
+    "color": "white"
+  },
+  {
+    "token": "??",
+    "category": "Symbols",
+    "color": "white"
+  },
+  {
+    "token": "::",
+    "category": "Symbols",
+    "color": "white"
+  },
+  {
+    "token": "?.",
+    "category": "Symbols",
+    "color": "white"
+  },
+  {
+    "token": "=>",
+    "category": "Symbols",
+    "color": "white"
+  },
+  {
+    "token": "++",
+    "category": "Symbols",
+    "color": "white"
+  },
+  {
+    "token": "--",
+    "category": "Symbols",
+    "color": "white"
+  },
+  {
+    "token": "&&",
+    "category": "Symbols",
+    "color": "white"
+  },
+  {
+    "token": "||",
+    "category": "Symbols",
+    "color": "white"
+  },
+  {
+    "token": "<<",
+    "category": "Symbols",
+    "color": "white"
+  },
+  {
+    "token": ">>",
+    "category": "Symbols",
+    "color": "white"
+  },
+  {
+    "token": "==",
+    "category": "Symbols",
+    "color": "white"
+  },
+  {
+    "token": "!=",
+    "category": "Symbols",
+    "color": "white"
+  },
+  {
+    "token": "<=",
+    "category": "Symbols",
+    "color": "white"
+  },
+  {
+    "token": ">=",
+    "category": "Symbols",
+    "color": "white"
+  },
+  {
+    "token": "+=",
+    "category": "Symbols",
+    "color": "white"
+  },
+  {
+    "token": "-=",
+    "category": "Symbols",
+    "color": "white"
+  },
+  {
+    "token": "*=",
+    "category": "Symbols",
+    "color": "white"
+  },
+  {
+    "token": "/=",
+    "category": "Symbols",
+    "color": "white"
+  },
+  {
+    "token": "%=",
+    "category": "Symbols",
+    "color": "white"
+  },
+  {
+    "token": "&=",
+    "category": "Symbols",
+    "color": "white"
+  },
+  {
+    "token": "|=",
+    "category": "Symbols",
+    "color": "white"
+  },
+  {
+    "token": "^=",
+    "category": "Symbols",
+    "color": "white"
+  },
+  {
+    "token": "<<=",
+    "category": "Symbols",
+    "color": "white"
+  },
+  {
+    "token": ">>=",
+    "category": "Symbols",
+    "color": "white"
+  },
+  {
+    "token": "??=",
+    "category": "Symbols",
+    "color": "white"
+  },
+  {
+    "token": "..",
+    "category": "Symbols",
+    "color": "white"
+  },
+  {
+    "token": "Word",
+    "category": "Category",
+    "color": "white"
+  },
+  {
+    "token": "#if",
+    "category": "Preprocessor",
+    "color": "white"
+  },
+  {
+    "token": "#elif",
+    "category": "Preprocessor",
+    "color": "purple"
+  },
+  {
+    "token": "#endif",
+    "category": "Preprocessor",
+    "color": "purple"
+  },
+  {
+    "token": "#define",
+    "category": "Preprocessor",
+    "color": "purple"
+  },
+  {
+    "token": "#undef",
+    "category": "Preprocessor",
+    "color": "purple"
+  },
+  {
+    "token": "#warning",
+    "category": "Preprocessor",
+    "color": "purple"
+  },
+  {
+    "token": "#error",
+    "category": "Preprocessor",
+    "color": "purple"
+  },
+  {
+    "token": "#line",
+    "category": "Preprocessor",
+    "color": "purple"
+  },
+  {
+    "token": "#region",
+    "category": "Preprocessor",
+    "color": "purple"
+  },
+  {
+    "token": "#endregion",
+    "category": "Preprocessor",
+    "color": "purple"
+  },
+  {
+    "token": "#pragma",
+    "category": "Preprocessor",
+    "color": "purple"
+  },
+  {
+    "token": "#nullable",
+    "category": "Preprocessor",
+    "color": "purple"
+  },
+  {
+    "token": "Word",
+    "category": "Category",
+    "color": "purple"
+  },
+  {
+    "token": "summary",
+    "category": "DocComment",
+    "color": "purple"
+  },
+  {
+    "token": "do",
+    "category": "Snippet",
+    "color": "purple"
+  },
+  {
+    "token": "if",
+    "category": "Snippet",
+    "color": "purple"
+  },
+  {
+    "token": "else",
+    "category": "Snippet",
+    "color": "purple"
+  },
+  {
+    "token": "switch",
+    "category": "Snippet",
+    "color": "purple"
+  },
+  {
+    "token": "try",
+    "category": "Snippet",
+    "color": "purple"
+  },
+  {
+    "token": "catch",
+    "category": "Snippet",
+    "color": "purple"
+  },
+  {
+    "token": "finally",
+    "category": "Snippet",
+    "color": "purple"
+  },
+  {
+    "token": "using",
+    "category": "Snippet",
+    "color": "purple"
+  },
+  {
+    "token": "lock",
+    "category": "Snippet",
+    "color": "purple"
+  },
+  {
+    "token": "class",
+    "category": "Snippet",
+    "color": "purple"
+  },
+  {
+    "token": "struct",
+    "category": "Snippet",
+    "color": "purple"
+  },
+  {
+    "token": "interface",
+    "category": "Snippet",
+    "color": "purple"
+  },
+  {
+    "token": "enum",
+    "category": "Snippet",
+    "color": "blue"
+  },
+  {
+    "token": "prop",
+    "category": "Snippet",
+    "color": "blue"
+  },
+  {
+    "token": "propfull",
+    "category": "Snippet",
+    "color": "blue"
+  },
+  {
+    "token": "propg",
+    "category": "Snippet",
+    "color": "blue"
+  },
+  {
+    "token": "ctor",
+    "category": "Snippet",
+    "color": "yellow"
+  },
+  {
+    "token": "cw",
+    "category": "Snippet",
+    "color": "yellow"
+  },
+  {
+    "token": "sim",
+    "category": "Snippet",
+    "color": "yellow"
+  },
+  {
+    "token": "svm",
+    "category": "Snippet",
+    "color": "yellow"
+  },
+  {
+    "token": "indexer",
+    "category": "Snippet",
+    "color": "yellow"
+  }
 ]
