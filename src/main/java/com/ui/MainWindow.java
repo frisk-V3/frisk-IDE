@@ -13,7 +13,7 @@ public class MainWindow {
         this.stage = stage;
 
         Scene scene = new Scene(root, 1400, 900);
-        ThemeManager.apply(scene); // ★ テーマ適用
+        ThemeManager.apply(scene); // ★ テーマ適用させる
 
         stage.setScene(scene);
         stage.setTitle("frisk-IDE");
