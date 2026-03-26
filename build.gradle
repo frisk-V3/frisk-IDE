@@ -15,10 +15,7 @@ dependencies {
     implementation "org.openjfx:javafx-graphics:${javaFxVersion}"
     implementation "org.openjfx:javafx-base:${javaFxVersion}"
 
-    // RichTextFX（エディタ用）
     implementation 'org.fxmisc.richtext:richtextfx:0.11.0'
-
-    // JSON
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.17.0'
 }
 
@@ -27,7 +24,6 @@ application {
 }
 
 tasks.withType(JavaExec) {
-    // JavaFX モジュールを追加
     jvmArgs = [
             "--add-modules", "javafx.controls,javafx.fxml,javafx.graphics,javafx.base"
     ]
