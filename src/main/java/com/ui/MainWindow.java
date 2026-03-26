@@ -1,26 +1,46 @@
 package com.ui;
 
+import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
-import javafx.scene.control.BorderPane;
+import javafx.scene.control.*;
+import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
 public class MainWindow {
 
-    private final Stage stage;
-    private final BorderPane root = new BorderPane();
+    private Stage stage;
+
+    // FXML から読み込む UI パーツ
+    public MenuBar menuBar;
+    public TabPane editorTabs;
+    public TextArea outputPane;
+    public Label statusLabel;
 
     public MainWindow(Stage stage) {
         this.stage = stage;
 
-        Scene scene = new Scene(root, 1400, 900);
-        ThemeManager.apply(scene); // ★ テーマ適用させる
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/layout/main.fxml"));
+            loader.setController(this);
+            BorderPane root = loader.load();
 
-        stage.setScene(scene);
-        stage.setTitle("frisk-IDE");
-        stage.show();
+            Scene scene = new Scene(root, 1400, 900);
+            ThemeManager.apply(scene);
+
+            stage.setScene(scene);
+            stage.setTitle("frisk-IDE");
+            stage.show();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
-    public Scene getScene() {
-        return stage.getScene();
+    public void log(String text) {
+        outputPane.appendText(text + "\n");
+    }
+
+    public void setStatus(String text) {
+        statusLabel.setText(text);
     }
 }
