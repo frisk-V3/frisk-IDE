@@ -1,55 +1,31 @@
 package com.ui;
 
-import javafx.scene.control.*;
+import javafx.scene.control.Menu;
+import javafx.scene.control.MenuBar;
+import javafx.scene.control.MenuItem;
 
 public class MenuBarBuilder {
 
     public static MenuBar create(MainWindow window) {
 
         Menu file = new Menu("File");
-        file.getItems().addAll(
-                new MenuItem("New File"),
-                new MenuItem("Open File"),
-                new SeparatorMenuItem(),
-                new MenuItem("Save"),
-                new MenuItem("Save As"),
-                new SeparatorMenuItem(),
-                new MenuItem("Exit")
-        );
-
-        Menu edit = new Menu("Edit");
-        edit.getItems().addAll(
-                new MenuItem("Undo"),
-                new MenuItem("Redo"),
-                new SeparatorMenuItem(),
-                new MenuItem("Cut"),
-                new MenuItem("Copy"),
-                new MenuItem("Paste")
-        );
-
-        Menu view = new Menu("View");
-        view.getItems().addAll(
-                new MenuItem("Toggle Sidebar"),
-                new MenuItem("Toggle Output")
-        );
 
         Menu build = new Menu("Build");
-        build.getItems().addAll(
-                new MenuItem("Build Project"),
-                new MenuItem("Run Project")
-        );
 
-        Menu tools = new Menu("Tools");
-        tools.getItems().addAll(
-                new MenuItem("Extensions"),
-                new MenuItem("Settings")
-        );
+        MenuItem buildProject = new MenuItem("Build Project");
+        buildProject.setOnAction(e -> {
+            var tab = window.getActiveEditorTab();
+            if (tab != null) window.buildManager().build(tab.project());
+        });
 
-        Menu help = new Menu("Help");
-        help.getItems().addAll(
-                new MenuItem("About frisk-IDE")
-        );
+        MenuItem runProject = new MenuItem("Run Project");
+        runProject.setOnAction(e -> {
+            var tab = window.getActiveEditorTab();
+            if (tab != null) window.buildManager().run(tab.project());
+        });
 
-        return new MenuBar(file, edit, view, build, tools, help);
+        build.getItems().addAll(buildProject, runProject);
+
+        return new MenuBar(file, build);
     }
 }
