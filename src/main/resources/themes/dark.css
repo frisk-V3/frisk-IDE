@@ -1,0 +1,25 @@
+.root {
+    -fx-base: #1e1e1e;
+    -fx-background: #1e1e1e;
+    -fx-control-inner-background: #252526;
+    -fx-text-fill: #d4d4d4;
+}
+
+.text-area {
+    -fx-background-color: #1e1e1e;
+    -fx-text-fill: #d4d4d4;
+    -fx-highlight-fill: #264f78;
+}
+
+.menu-bar {
+    -fx-background-color: #2d2d2d;
+}
+
+.tool-bar {
+    -fx-background-color: #333333;
+}
+
+.status-bar {
+    -fx-background-color: #2d2d2d;
+    -fx-text-fill: #cccccc;
+}
