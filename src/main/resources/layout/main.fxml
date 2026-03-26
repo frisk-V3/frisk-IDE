@@ -2,28 +2,23 @@
 
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-<?import javafx.geometry.Insets?>
 
 <BorderPane xmlns="http://javafx.com/javafx/17"
             xmlns:fx="http://javafx.com/fxml/1"
             fx:id="root">
 
-    <!-- 上部：メニューバー -->
     <top>
         <MenuBar fx:id="menuBar"/>
     </top>
 
-    <!-- 左側：将来のサイドバー（今は空） -->
     <left>
-        <VBox fx:id="sideBar" prefWidth="200"/>
+        <VBox fx:id="sideBar" prefWidth="220"/>
     </left>
 
-    <!-- 中央：エディタタブ -->
     <center>
         <TabPane fx:id="editorTabs"/>
     </center>
 
-    <!-- 下部：出力ペイン + ステータスバー -->
     <bottom>
         <VBox spacing="0">
             <TextArea fx:id="outputPane"
@@ -31,7 +26,7 @@
                       prefHeight="180"
                       style="-fx-font-family: 'Consolas'; -fx-font-size: 12;"/>
             <HBox fx:id="statusBar"
-                  style="-fx-padding: 4; -fx-background-color: #333; -fx-text-fill: white;">
+                  style="-fx-padding: 4;">
                 <Label fx:id="statusLabel" text="Ready"/>
             </HBox>
         </VBox>
