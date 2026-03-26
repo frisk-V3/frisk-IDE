@@ -1,6 +1,10 @@
 package com.ui;
 
 import com.editor.EditorTab;
+import com.project.Project;
+import com.project.ProjectDetector;
+import com.build.BuildManager;
+
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
@@ -15,7 +19,6 @@ public class MainWindow {
 
     private final Stage stage;
 
-    // FXML から読み込む UI パーツ
     public MenuBar menuBar;
     public TabPane editorTabs;
     public TextArea outputPane;
@@ -24,34 +27,39 @@ public class MainWindow {
 
     private Explorer explorer;
 
+    private Project activeProject;
+    private BuildManager buildManager = new BuildManager();
+
     public MainWindow(Stage stage) {
         this.stage = stage;
 
         try {
-            // FXML 読み込み
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/layout/main.fxml"));
             loader.setController(this);
             BorderPane root = loader.load();
 
-            // シーン作成
             Scene scene = new Scene(root, 1400, 900);
             ThemeManager.apply(scene);
 
-            // アイコン設定（frisk.ico）
             stage.getIcons().add(IconLoader.loadLogo());
-
             stage.setScene(scene);
             stage.setTitle("frisk-IDE");
             stage.show();
 
-            // Explorer（サイドバー）を追加
+            // Explorer
             explorer = new Explorer(this);
             sideBar.getChildren().add(explorer);
 
-            // 仮のプロジェクト読み込み（必要に応じて変更）
+            // プロジェクト読み込み
             File projectDir = new File("project");
             if (projectDir.exists()) {
                 explorer.loadProject(projectDir);
+
+                // プロジェクト判定
+                activeProject = ProjectDetector.detect(projectDir.toPath());
+                if (activeProject != null) {
+                    log("Loaded project: " + activeProject.language());
+                }
             }
 
         } catch (Exception e) {
@@ -65,7 +73,6 @@ public class MainWindow {
     // -----------------------------
     public void openFile(Path path) {
         try {
-            // すでに開いているタブがあるか確認
             for (Tab t : editorTabs.getTabs()) {
                 if (t.getText().equals(path.getFileName().toString())) {
                     editorTabs.getSelectionModel().select(t);
@@ -73,7 +80,6 @@ public class MainWindow {
                 }
             }
 
-            // 新しいタブを作成
             EditorTab tab = new EditorTab(path);
             editorTabs.getTabs().add(tab);
             editorTabs.getSelectionModel().select(tab);
@@ -84,6 +90,32 @@ public class MainWindow {
             e.printStackTrace();
             log("Failed to open file: " + path);
         }
+    }
+
+    // -----------------------------
+    // Build
+    // -----------------------------
+    public void buildProject() {
+        if (activeProject == null) {
+            log("No project loaded.");
+            return;
+        }
+
+        log("Building project...");
+        buildManager.build(activeProject);
+    }
+
+    // -----------------------------
+    // Run
+    // -----------------------------
+    public void runProject() {
+        if (activeProject == null) {
+            log("No project loaded.");
+            return;
+        }
+
+        log("Running project...");
+        buildManager.run(activeProject);
     }
 
     // -----------------------------
