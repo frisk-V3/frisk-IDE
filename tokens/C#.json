@@ -1,0 +1,932 @@
+[
+  {
+	"token": "byte",
+	"category": "Built-in Types",
+	"color": "blue"
+  },
+  {
+	"token": "char",
+	"category": "Built-in Types",
+	"color": "blue"
+  },
+  {
+	"token": "decimal",
+	"category": "Built-in Types",
+	"color": "blue"
+  },
+  {
+	"token": "double",
+	"category": "Built-in Types",
+	"color": "blue"
+  },
+  {
+	"token": "float",
+	"category": "Built-in Types",
+	"color": "blue"
+  },
+  {
+	"token": "int",
+	"category": "Built-in Types",
+	"color": "blue"
+  },
+  {
+	"token": "long",
+	"category": "Built-in Types",
+	"color": "blue"
+  },
+  {
+	"token": "nint",
+	"category": "Built-in Types",
+	"color": "blue"
+  },
+  {
+	"token": "nuint",
+	"category": "Built-in Types",
+	"color": "blue"
+  },
+  {
+	"token": "object",
+	"category": "Built-in Types",
+	"color": "blue"
+  },
+  {
+	"token": "sbyte",
+	"category": "Built-in Types",
+	"color": "blue"
+  },
+  {
+	"token": "short",
+	"category": "Built-in Types",
+	"color": "blue"
+  },
+  {
+	"token": "string",
+	"category": "Built-in Types",
+	"color": "blue"
+  },
+  {
+	"token": "uint",
+	"category": "Built-in Types",
+	"color": "blue"
+  },
+  {
+	"token": "ulong",
+	"category": "Built-in Types",
+	"color": "blue"
+  },
+  {
+	"token": "ushort",
+	"category": "Built-in Types",
+	"color": "blue"
+  },
+  {
+	"token": "void",
+	"category": "Built-in Types",
+	"color": "blue"
+  },
+  {
+	"token": "break",
+	"category": "Control Flow",
+	"color": "purple"
+  },
+  {
+	"token": "case",
+	"category": "Control Flow",
+	"color": "purple"
+  },
+  {
+	"token": "catch",
+	"category": "Control Flow",
+	"color": "purple"
+  },
+  {
+	"token": "continue",
+	"category": "Control Flow",
+	"color": "purple"
+  },
+  {
+	"token": "default",
+	"category": "Control Flow",
+	"color": "purple"
+  },
+  {
+	"token": "do",
+	"category": "Control Flow",
+	"color": "purple"
+  },
+  {
+	"token": "else",
+	"category": "Control Flow",
+	"color": "purple"
+  },
+  {
+	"token": "finally",
+	"category": "Control Flow",
+	"color": "purple"
+  },
+  {
+	"token": "for",
+	"category": "Control Flow",
+	"color": "purple"
+  },
+  {
+	"token": "foreach",
+	"category": "Control Flow",
+	"color": "purple"
+  },
+  {
+	"token": "goto",
+	"category": "Control Flow",
+	"color": "purple"
+  },
+  {
+	"token": "if",
+	"category": "Control Flow",
+	"color": "purple"
+  },
+  {
+	"token": "return",
+	"category": "Control Flow",
+	"color": "purple"
+  },
+  {
+	"token": "switch",
+	"category": "Control Flow",
+	"color": "purple"
+  },
+  {
+	"token": "throw",
+	"category": "Control Flow",
+	"color": "purple"
+  },
+  {
+	"token": "try",
+	"category": "Control Flow",
+	"color": "purple"
+  },
+  {
+	"token": "while",
+	"category": "Control Flow",
+	"color": "purple"
+  },
+  {
+	"token": "yield",
+	"category": "Control Flow",
+	"color": "purple"
+  },
+  {
+	"token": "abstract",
+	"category": "Modifiers & Definitions",
+	"color": "blue"
+  },
+  {
+	"token": "async",
+	"category": "Modifiers & Definitions",
+	"color": "blue"
+  },
+  {
+	"token": "await",
+	"category": "Modifiers & Definitions",
+	"color": "blue"
+  },
+  {
+	"token": "base",
+	"category": "Modifiers & Definitions",
+	"color": "blue"
+  },
+  {
+	"token": "class",
+	"category": "Modifiers & Definitions",
+	"color": "blue"
+  },
+  {
+	"token": "const",
+	"category": "Modifiers & Definitions",
+	"color": "blue"
+  },
+  {
+	"token": "delegate",
+	"category": "Modifiers & Definitions",
+	"color": "blue"
+  },
+  {
+	"token": "enum",
+	"category": "Modifiers & Definitions",
+	"color": "blue"
+  },
+  {
+	"token": "event",
+	"category": "Modifiers & Definitions",
+	"color": "blue"
+  },
+  {
+	"token": "explicit",
+	"category": "Modifiers & Definitions",
+	"color": "blue"
+  },
+  {
+	"token": "extern",
+	"category": "Modifiers & Definitions",
+	"color": "blue"
+  },
+  {
+	"token": "file",
+	"category": "Modifiers & Definitions",
+	"color": "blue"
+  },
+  {
+	"token": "fixed",
+	"category": "Modifiers & Definitions",
+	"color": "blue"
+  },
+  {
+	"token": "implicit",
+	"category": "Modifiers & Definitions",
+	"color": "blue"
+  },
+  {
+	"token": "interface",
+	"category": "Modifiers & Definitions",
+	"color": "blue"
+  },
+  {
+	"token": "internal",
+	"category": "Modifiers & Definitions",
+	"color": "blue"
+  },
+  {
+	"token": "new",
+	"category": "Modifiers & Definitions",
+	"color": "blue"
+  },
+  {
+	"token": "operator",
+	"category": "Modifiers & Definitions",
+	"color": "blue"
+  },
+  {
+	"token": "override",
+	"category": "Modifiers & Definitions",
+	"color": "blue"
+  },
+  {
+	"token": "partial",
+	"category": "Modifiers & Definitions",
+	"color": "blue"
+  },
+  {
+	"token": "private",
+	"category": "Modifiers & Definitions",
+	"color": "blue"
+  },
+  {
+	"token": "protected",
+	"category": "Modifiers & Definitions",
+	"color": "blue"
+  },
+  {
+	"token": "public",
+	"category": "Modifiers & Definitions",
+	"color": "blue"
+  },
+  {
+	"token": "readonly",
+	"category": "Modifiers & Definitions",
+	"color": "blue"
+  },
+  {
+	"token": "record",
+	"category": "Modifiers & Definitions",
+	"color": "blue"
+  },
+  {
+	"token": "sealed",
+	"category": "Modifiers & Definitions",
+	"color": "blue"
+  },
+  {
+	"token": "static",
+	"category": "Modifiers & Definitions",
+	"color": "blue"
+  },
+  {
+	"token": "struct",
+	"category": "Modifiers & Definitions",
+	"color": "blue"
+  },
+  {
+	"token": "this",
+	"category": "Modifiers & Definitions",
+	"color": "blue"
+  },
+  {
+	"token": "unsafe",
+	"category": "Modifiers & Definitions",
+	"color": "blue"
+  },
+  {
+	"token": "virtual",
+	"category": "Modifiers & Definitions",
+	"color": "blue"
+  },
+  {
+	"token": "volatile",
+	"category": "Modifiers & Definitions",
+	"color": "blue"
+  },
+  {
+	"token": "as",
+	"category": "Logic & Operators",
+	"color": "blue"
+  },
+  {
+	"token": "checked",
+	"category": "Logic & Operators",
+	"color": "blue"
+  },
+  {
+	"token": "is",
+	"category": "Logic & Operators",
+	"color": "blue"
+  },
+  {
+	"token": "lock",
+	"category": "Logic & Operators",
+	"color": "blue"
+  },
+  {
+	"token": "nameof",
+	"category": "Logic & Operators",
+	"color": "blue"
+  },
+  {
+	"token": "out",
+	"category": "Logic & Operators",
+	"color": "blue"
+  },
+  {
+	"token": "params",
+	"category": "Logic & Operators",
+	"color": "blue"
+  },
+  {
+	"token": "ref",
+	"category": "Logic & Operators",
+	"color": "blue"
+  },
+  {
+	"token": "sizeof",
+	"category": "Logic & Operators",
+	"color": "blue"
+  },
+  {
+	"token": "stackalloc",
+	"category": "Logic & Operators",
+	"color": "blue"
+  },
+  {
+	"token": "typeof",
+	"category": "Logic & Operators",
+	"color": "blue"
+  },
+  {
+	"token": "unchecked",
+	"category": "Logic & Operators",
+	"color": "blue"
+  },
+  {
+	"token": "using",
+	"category": "Logic & Operators",
+	"color": "blue"
+  },
+  {
+	"token": "add",
+	"category": "LINQ & Contextual",
+	"color": "blue"
+  },
+  {
+	"token": "alias",
+	"category": "LINQ & Contextual",
+	"color": "blue"
+  },
+  {
+	"token": "ascending",
+	"category": "LINQ & Contextual",
+	"color": "blue"
+  },
+  {
+	"token": "by",
+	"category": "LINQ & Contextual",
+	"color": "blue"
+  },
+  {
+	"token": "descending",
+	"category": "LINQ & Contextual",
+	"color": "blue"
+  },
+  {
+	"token": "dynamic",
+	"category": "LINQ & Contextual",
+	"color": "blue"
+  },
+  {
+	"token": "equals",
+	"category": "LINQ & Contextual",
+	"color": "blue"
+  },
+  {
+	"token": "from",
+	"category": "LINQ & Contextual",
+	"color": "blue"
+  },
+  {
+	"token": "get",
+	"category": "LINQ & Contextual",
+	"color": "blue"
+  },
+  {
+	"token": "global",
+	"category": "LINQ & Contextual",
+	"color": "blue"
+  },
+  {
+	"token": "group",
+	"category": "LINQ & Contextual",
+	"color": "blue"
+  },
+  {
+	"token": "init",
+	"category": "LINQ & Contextual",
+	"color": "blue"
+  },
+  {
+	"token": "into",
+	"category": "LINQ & Contextual",
+	"color": "blue"
+  },
+  {
+	"token": "join",
+	"category": "LINQ & Contextual",
+	"color": "blue"
+  },
+  {
+	"token": "let",
+	"category": "LINQ & Contextual",
+	"color": "blue"
+  },
+  {
+	"token": "managed",
+	"category": "LINQ & Contextual",
+	"color": "blue"
+  },
+  {
+	"token": "on",
+	"category": "LINQ & Contextual",
+	"color": "blue"
+  },
+  {
+	"token": "orderby",
+	"category": "LINQ & Contextual",
+	"color": "blue"
+  },
+  {
+	"token": "remove",
+	"category": "LINQ & Contextual",
+	"color": "blue"
+  },
+  {
+	"token": "select",
+	"category": "LINQ & Contextual",
+	"color": "blue"
+  },
+  {
+	"token": "set",
+	"category": "LINQ & Contextual",
+	"color": "blue"
+  },
+  {
+	"token": "unmanaged",
+	"category": "LINQ & Contextual",
+	"color": "blue"
+  },
+  {
+	"token": "value",
+	"category": "LINQ & Contextual",
+	"color": "blue"
+  },
+  {
+	"token": "var",
+	"category": "LINQ & Contextual",
+	"color": "blue"
+  },
+  {
+	"token": "when",
+	"category": "LINQ & Contextual",
+	"color": "blue"
+  },
+  {
+	"token": "where",
+	"category": "LINQ & Contextual",
+	"color": "blue"
+  },
+  {
+	"token": "with",
+	"category": "LINQ & Contextual",
+	"color": "blue"
+  },
+  {
+	"token": "false",
+	"category": "Literals",
+	"color": "blue"
+  },
+  {
+	"token": "null",
+	"category": "Literals",
+	"color": "blue"
+  },
+  {
+	"token": "true",
+	"category": "Literals",
+	"color": "blue"
+  },
+  {
+	"token": "+",
+	"category": "Symbols",
+	"color": "blue"
+  },
+  {
+	"token": "-",
+	"category": "Symbols",
+	"color": "blue"
+  },
+  {
+	"token": "*",
+	"category": "Symbols",
+	"color": "blue"
+  },
+  {
+	"token": "/",
+	"category": "Symbols",
+	"color": "blue"
+  },
+  {
+	"token": "%",
+	"category": "Symbols",
+	"color": "blue"
+  },
+  {
+	"token": "&",
+	"category": "Symbols",
+	"color": "blue"
+  },
+  {
+	"token": "|",
+	"category": "Symbols",
+	"color": "white"
+  },
+  {
+	"token": "^",
+	"category": "Symbols",
+	"color": "white"
+  },
+  {
+	"token": "!",
+	"category": "Symbols",
+	"color": "white"
+  },
+  {
+	"token": "~",
+	"category": "Symbols",
+	"color": "white"
+  },
+  {
+	"token": "=",
+	"category": "Symbols",
+	"color": "white"
+  },
+  {
+	"token": "<",
+	"category": "Symbols",
+	"color": "white"
+  },
+  {
+	"token": ">",
+	"category": "Symbols",
+	"color": "white"
+  },
+  {
+	"token": "?",
+	"category": "Symbols",
+	"color": "white"
+  },
+  {
+	"token": "??",
+	"category": "Symbols",
+	"color": "white"
+  },
+  {
+	"token": "::",
+	"category": "Symbols",
+	"color": "white"
+  },
+  {
+	"token": "?.",
+	"category": "Symbols",
+	"color": "white"
+  },
+  {
+	"token": "=>",
+	"category": "Symbols",
+	"color": "white"
+  },
+  {
+	"token": "++",
+	"category": "Symbols",
+	"color": "white"
+  },
+  {
+	"token": "--",
+	"category": "Symbols",
+	"color": "white"
+  },
+  {
+	"token": "&&",
+	"category": "Symbols",
+	"color": "white"
+  },
+  {
+	"token": "||",
+	"category": "Symbols",
+	"color": "white"
+  },
+  {
+	"token": "<<",
+	"category": "Symbols",
+	"color": "white"
+  },
+  {
+	"token": ">>",
+	"category": "Symbols",
+	"color": "white"
+  },
+  {
+	"token": "==",
+	"category": "Symbols",
+	"color": "white"
+  },
+  {
+	"token": "!=",
+	"category": "Symbols",
+	"color": "white"
+  },
+  {
+	"token": "<=",
+	"category": "Symbols",
+	"color": "white"
+  },
+  {
+	"token": ">=",
+	"category": "Symbols",
+	"color": "white"
+  },
+  {
+	"token": "+=",
+	"category": "Symbols",
+	"color": "white"
+  },
+  {
+	"token": "-=",
+	"category": "Symbols",
+	"color": "white"
+  },
+  {
+	"token": "*=",
+	"category": "Symbols",
+	"color": "white"
+  },
+  {
+	"token": "/=",
+	"category": "Symbols",
+	"color": "white"
+  },
+  {
+	"token": "%=",
+	"category": "Symbols",
+	"color": "white"
+  },
+  {
+	"token": "&=",
+	"category": "Symbols",
+	"color": "white"
+  },
+  {
+	"token": "|=",
+	"category": "Symbols",
+	"color": "white"
+  },
+  {
+	"token": "^=",
+	"category": "Symbols",
+	"color": "white"
+  },
+  {
+	"token": "<<=",
+	"category": "Symbols",
+	"color": "white"
+  },
+  {
+	"token": ">>=",
+	"category": "Symbols",
+	"color": "white"
+  },
+  {
+	"token": "??=",
+	"category": "Symbols",
+	"color": "white"
+  },
+  {
+	"token": "..",
+	"category": "Symbols",
+	"color": "white"
+  },
+  {
+	"token": "Word",
+	"category": "Category",
+	"color": "white"
+  },
+  {
+	"token": "#if",
+	"category": "Preprocessor",
+	"color": "white"
+  },
+  {
+	"token": "#elif",
+	"category": "Preprocessor",
+	"color": "purple"
+  },
+  {
+	"token": "#endif",
+	"category": "Preprocessor",
+	"color": "purple"
+  },
+  {
+	"token": "#define",
+	"category": "Preprocessor",
+	"color": "purple"
+  },
+  {
+	"token": "#undef",
+	"category": "Preprocessor",
+	"color": "purple"
+  },
+  {
+	"token": "#warning",
+	"category": "Preprocessor",
+	"color": "purple"
+  },
+  {
+	"token": "#error",
+	"category": "Preprocessor",
+	"color": "purple"
+  },
+  {
+	"token": "#line",
+	"category": "Preprocessor",
+	"color": "purple"
+  },
+  {
+	"token": "#region",
+	"category": "Preprocessor",
+	"color": "purple"
+  },
+  {
+	"token": "#endregion",
+	"category": "Preprocessor",
+	"color": "purple"
+  },
+  {
+	"token": "#pragma",
+	"category": "Preprocessor",
+	"color": "purple"
+  },
+  {
+	"token": "#nullable",
+	"category": "Preprocessor",
+	"color": "purple"
+  },
+  {
+	"token": "Word",
+	"category": "Category",
+	"color": "purple"
+  },
+  {
+	"token": "summary",
+	"category": "DocComment",
+	"color": "purple"
+  },
+  {
+	"token": "do",
+	"category": "Snippet",
+	"color": "purple"
+  },
+  {
+	"token": "if",
+	"category": "Snippet",
+	"color": "purple"
+  },
+  {
+	"token": "else",
+	"category": "Snippet",
+	"color": "purple"
+  },
+  {
+	"token": "switch",
+	"category": "Snippet",
+	"color": "purple"
+  },
+  {
+	"token": "try",
+	"category": "Snippet",
+	"color": "purple"
+  },
+  {
+	"token": "catch",
+	"category": "Snippet",
+	"color": "purple"
+  },
+  {
+	"token": "finally",
+	"category": "Snippet",
+	"color": "purple"
+  },
+  {
+	"token": "using",
+	"category": "Snippet",
+	"color": "purple"
+  },
+  {
+	"token": "lock",
+	"category": "Snippet",
+	"color": "purple"
+  },
+  {
+	"token": "class",
+	"category": "Snippet",
+	"color": "purple"
+  },
+  {
+	"token": "struct",
+	"category": "Snippet",
+	"color": "purple"
+  },
+  {
+	"token": "interface",
+	"category": "Snippet",
+	"color": "purple"
+  },
+  {
+	"token": "enum",
+	"category": "Snippet",
+	"color": "blue"
+  },
+  {
+	"token": "prop",
+	"category": "Snippet",
+	"color": "blue"
+  },
+  {
+	"token": "propfull",
+	"category": "Snippet",
+	"color": "blue"
+  },
+  {
+	"token": "propg",
+	"category": "Snippet",
+	"color": "blue"
+  },
+  {
+	"token": "ctor",
+	"category": "Snippet",
+	"color": "yellow"
+  },
+  {
+	"token": "cw",
+	"category": "Snippet",
+	"color": "yellow"
+  },
+  {
+	"token": "sim",
+	"category": "Snippet",
+	"color": "yellow"
+  },
+  {
+	"token": "svm",
+	"category": "Snippet",
+	"color": "yellow"
+  },
+  {
+	"token": "indexer",
+	"category": "Snippet",
+	"color": "yellow"
+  }
+]

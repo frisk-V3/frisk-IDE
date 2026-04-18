@@ -1,0 +1,1087 @@
+[
+  {
+    "token": "case",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "catch",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "class",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "const",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "continue",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "debugger",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "default",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "delete",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "do",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "else",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "export",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "extends",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "finally",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "for",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "function",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "if",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "import",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "in",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "instanceof",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "new",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "return",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "super",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "switch",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "this",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "throw",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "try",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "typeof",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "var",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "void",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "while",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "with",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "yield",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "# Strict Mode Future Reserved",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "enum",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "implements",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "interface",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "let",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "package",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "private",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "protected",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "public",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "static",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "# Literals",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "TRUE",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "FALSE",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "null",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "undefined",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "NaN",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "Infinity",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "# Operators",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "#ERROR!",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "-",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "*",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "/",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "%",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "**",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "#ERROR!",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "#ERROR!",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "#ERROR!",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "!=",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "!==",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "<",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": ">",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "<=",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": ">=",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "&&",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "||",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "??",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "!",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "~",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "&",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "|",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "^",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "<<",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": ">>",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": ">>>",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "#ERROR!",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "-=",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "*=",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "/=",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "%=",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "**=",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "<<=",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": ">>=",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": ">>>=",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "&=",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "|=",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "^=",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "&&=",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "||=",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "??=",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "?:",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "...",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": ".",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "?.",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "??",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "G90=>",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "[]",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "{}",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "()",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "# Statements / Syntax",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "async",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "await",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "import",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "export",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "from",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "as",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "default",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "get",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "set",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "of",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "for",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "for await",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "for in",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "for of",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "try",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "catch",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "finally",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "switch",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "case",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "break",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "continue",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "if",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "else",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "do",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "while",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "return",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "throw",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "debugger",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "with",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "# Global Objects",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Object",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Function",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Boolean",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Symbol",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "BigInt",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Number",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Math",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Date",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "String",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "RegExp",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Error",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "EvalError",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "RangeError",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "ReferenceError",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "SyntaxError",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "TypeError",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "URIError",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "JSON",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Promise",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Generator",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "GeneratorFunction",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "AsyncFunction",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "AsyncGenerator",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "AsyncGeneratorFunction",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "# Typed Arrays",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "ArrayBuffer",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "SharedArrayBuffer",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "DataView",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Int8Array",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Uint8Array",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Uint8ClampedArray",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Int16Array",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Uint16Array",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Int32Array",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Uint32Array",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Float32Array",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Float64Array",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "BigInt64Array",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "BigUint64Array",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "# Collections",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Array",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Map",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Set",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "WeakMap",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "WeakSet",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "# Atomics",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Atomics",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "# Reflect / Proxy",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Reflect",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "Proxy",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "# Global Functions",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "eval",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "isFinite",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "isNaN",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "parseFloat",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "parseInt",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "encodeURI",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "decodeURI",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "encodeURIComponent",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "decodeURIComponent",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "queueMicrotask",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "setTimeout",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "clearTimeout",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "setInterval",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "clearInterval",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "setImmediate",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "clearImmediate",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "# Web APIs (Common)",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "window",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "document",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "console",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "alert",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "prompt",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "confirm",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "fetch",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Headers",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Request",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "Response",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "FormData",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "URL",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "URLSearchParams",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "WebSocket",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "Event",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "CustomEvent",
+    "category": "unknown",
+    "color": "white"
+  },
+  {
+    "token": "dispatchEvent",
+    "category": "unknown",
+    "color": "green"
+  },
+  {
+    "token": "addEventListener",
+    "category": "unknown",
+    "color": "green"
+  }
+]

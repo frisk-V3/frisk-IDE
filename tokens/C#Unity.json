@@ -1,0 +1,3292 @@
+[
+  {
+    "token": "using UnityEditor;",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "using System;",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "using System.Collections.Generic;",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "using System.Linq;",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "using System.IO;",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "using System.Text;",
+    "category": "unknown",
+    "color": "purple"
+  },
+  {
+    "token": "List<T>",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "V>",
+    "category": "Dictionary<K",
+    "color": "cyan"
+  },
+  {
+    "token": "T[]",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Stack<T>",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Queue<T>",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "ObservableCollection<T>",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "#if UNITY_EDITOR",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "#if DEBUG",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "#endif",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Debug.Log();",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "Debug.LogWarning();",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "Debug.LogError();",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "Debug.Assert();",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "if () {}",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "else if () {}",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "else {}",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "switch () { case: break; }",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "foreach (var x in list) {}",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "for (int i = 0; i < n; i++) {}",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "while () {}",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "try {} catch (Exception e) {} finally {}",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "public",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "private",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "protected",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "internal",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "static",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "virtual",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "override",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "abstract",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "async",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "await",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "[MenuItem(\"\")]",
+    "category": "unknown",
+    "color": "orange"
+  },
+  {
+    "token": "[SerializeField]",
+    "category": "unknown",
+    "color": "orange"
+  },
+  {
+    "token": "[HideInInspector]",
+    "category": "unknown",
+    "color": "orange"
+  },
+  {
+    "token": "GetWindow<T>();",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "OnGUI();",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "GUILayout.Button();",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "GUILayout.Label();",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "GUILayout.TextField();",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "EditorGUILayout.PropertyField();",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "IEnumerator",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "IEnumerable<T>",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Action<T>",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "TResult>",
+    "category": "Func<T",
+    "color": "cyan"
+  },
+  {
+    "token": "Predicate<T>",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "var",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "dynamic",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "object",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "delegate",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "event",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "readonly",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "const",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "ref",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "out",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "in",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "is",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "as",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "nameof()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "typeof()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "default()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "struct",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "enum",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "interface",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "record",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "sealed",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "partial",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "params",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "lock",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "unsafe",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "fixed",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "stackalloc",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "yield return",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "yield break",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "Attribute",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "AttributeUsage",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "[CanEditMultipleObjects]",
+    "category": "unknown",
+    "color": "orange"
+  },
+  {
+    "token": "[CustomEditor(typeof(T))]",
+    "category": "unknown",
+    "color": "orange"
+  },
+  {
+    "token": "[ExecuteInEditMode]",
+    "category": "unknown",
+    "color": "orange"
+  },
+  {
+    "token": "[InitializeOnLoad]",
+    "category": "unknown",
+    "color": "orange"
+  },
+  {
+    "token": "[RuntimeInitializeOnLoadMethod]",
+    "category": "unknown",
+    "color": "orange"
+  },
+  {
+    "token": "EditorUtility.SetDirty();",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "AssetDatabase.SaveAssets();",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "AssetDatabase.Refresh();",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "Selection.activeGameObject",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "Undo.RecordObject();",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "PrefabUtility.SaveAsPrefabAsset();",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "SceneView.duringSceneGui",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "Handles.BeginGUI();",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "Handles.EndGUI();",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "GenericMenu",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "SerializedObject",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "SerializedProperty",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Where()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Select()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "OrderBy()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "FirstOrDefault()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Any()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "ToArray()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "ToList()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "File.ReadAllText()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "File.WriteAllText()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Path.Combine()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Path.GetExtension()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Directory.CreateDirectory()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "JsonUtility.ToJson()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "JsonUtility.FromJson<T>()",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "BinaryFormatter",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "StreamWriter",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "StreamReader",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "MemoryStream",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "VisualElement",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Button",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Label",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "TextField",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "ListView",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "ScrollView",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "StyleSheet",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "VisualTreeAsset",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "VisualElement.Add()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "VisualElement.Remove()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "VisualElement.RegisterCallback<T>()",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "EditorSceneManager.GetActiveScene()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "EditorSceneManager.MarkSceneDirty()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Selection.objects",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "Selection.instanceIds",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "EditorWindow.GetWindowWithRect<T>()",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "EditorWindow.Close()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "EditorWindow.Repaint()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Process.Start()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Thread",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Task",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "CancellationToken",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "System.Reflection",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "GetType()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "GetMethod()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "GetField()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "GetProperty()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "BindingFlags",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "MethodInfo",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "FieldInfo",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Invoke()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Marshal.SizeOf()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "IntPtr",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Guid",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "TimeSpan",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "DateTime",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Mathf.Clamp()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Mathf.Lerp()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Mathf.MoveTowards()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Vector3.Distance()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Quaternion.Euler()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "max)]",
+    "category": "[Range(min",
+    "color": "orange"
+  },
+  {
+    "token": "[Tooltip(\"\")]",
+    "category": "unknown",
+    "color": "orange"
+  },
+  {
+    "token": "[Header(\"\")]",
+    "category": "unknown",
+    "color": "orange"
+  },
+  {
+    "token": "[Space]",
+    "category": "unknown",
+    "color": "orange"
+  },
+  {
+    "token": "[TextArea]",
+    "category": "unknown",
+    "color": "orange"
+  },
+  {
+    "token": "[Multiline]",
+    "category": "unknown",
+    "color": "orange"
+  },
+  {
+    "token": "\"\")]",
+    "category": "[ContextMenuItem(\"\"",
+    "color": "orange"
+  },
+  {
+    "token": "[ContextMenu(\"\")]",
+    "category": "unknown",
+    "color": "orange"
+  },
+  {
+    "token": "[SelectionBase]",
+    "category": "unknown",
+    "color": "orange"
+  },
+  {
+    "token": "[DisallowMultipleComponent]",
+    "category": "unknown",
+    "color": "orange"
+  },
+  {
+    "token": "[RequireComponent(typeof(T))]",
+    "category": "unknown",
+    "color": "orange"
+  },
+  {
+    "token": "??",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "??=",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "?.",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "!",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "#ERROR!",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "y) => { }",
+    "category": "(x",
+    "color": "cyan"
+  },
+  {
+    "token": "with { }",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "init;",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "get;",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "set;",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "nint",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "nuint",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Span<T>",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "ReadOnlySpan<T>",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Memory<T>",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "ComputeShader",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "ComputeBuffer",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "RenderTexture",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Graphics.Blit()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Graphics.DrawMeshInstanced()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "MaterialPropertyBlock",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "GL.PushMatrix()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "GL.Begin()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "GL.Vertex3()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "GL.End()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "GL.PopMatrix()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "NativeArray<T>",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "NativeList<T>",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "[NativeDisableUnsafePtrRestriction]",
+    "category": "unknown",
+    "color": "orange"
+  },
+  {
+    "token": "[DllImport(\"dllname\")]",
+    "category": "unknown",
+    "color": "orange"
+  },
+  {
+    "token": "Extern",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Unity.Collections",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "Unity.Jobs",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "IJob",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "IJobParallelFor",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "JobHandle",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "[BurstCompile]",
+    "category": "unknown",
+    "color": "orange"
+  },
+  {
+    "token": "Profiler.BeginSample()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Profiler.EndSample()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "CustomYieldInstruction",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "WaitUntil",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "WaitWhile",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "ArgumentNullException",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "ArgumentOutOfRangeException",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "NotImplementedException",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "OperationCanceledException",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "primary",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "required",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "scoped",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "ref struct",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "readonly struct",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "delegate* unmanaged<...>",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "#pragma warning disable",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "#pragma warning restore",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "#region",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "#endregion",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "UnityEditor.PackageManager",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "Client.List()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Client.Add()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "AssetPostprocessor",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "OnPreprocessTexture()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "OnPostprocessModel()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "ModelImporter",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "TextureImporter",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "AudioImporter",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "AssetImporter.GetAtPath()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "BuildPipeline.BuildPlayer()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "BuildAssetBundles()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "BuildReport",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "BuildSummary",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "PlayerSettings.SetScriptingDefineSymbolsForGroup()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "EditorUserBuildSettings.SwitchActiveBuildTarget()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "ScriptableObject.CreateInstance()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "AssetDatabase.CreateAsset()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "AssetDatabase.GetAssetPath()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "AssetDatabase.GUIDToAssetPath()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "AssetDatabase.AssetPathToGUID()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "EditorApplication.update",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "EditorApplication.isPlaying",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "EditorApplication.isCompiling",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "EditorApplication.delayCall",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "EditorApplication.playModeStateChanged",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "EditorApplication.quitting",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "EditorAnalytics",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "UnityEvent",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "UnityAction",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "LayerMask.GetMask()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Physics.OverlapSphere()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Physics.RaycastAll()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "RaycastHit",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Plane",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Bounds",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Ray",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "FrameDebugger.IsActive()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Shader.PropertyToID()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Shader.SetGlobalFloat()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Shader.EnableKeyword()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Shader.DisableKeyword()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "CustomEditorWindow",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "EditorWindow.minSize",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "EditorWindow.maxSize",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "EditorWindow.ShowModalUtility()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "EditorWindow.ShowAsDropDown()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Event.current",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "Event.current.mousePosition",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "Event.current.type",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "EventType.MouseDown",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "EventType.KeyDown",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "GUI.GetNameOfFocusedControl()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "GUI.FocusControl()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "GUIUtility.GetControlID()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "EditorGUI.BeginChangeCheck()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "EditorGUI.EndChangeCheck()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "EditorGUI.indentLevel",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "EditorGUIUtility.Load()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "EditorGUIUtility.ObjectContent()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "EditorGUIUtility.PingObject()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "InternalEditorUtility",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "ObjectFactory.CreateGameObject()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "System.GC.Collect()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "System.GC.GetTotalMemory()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Profiler.GetRuntimeMemorySizeLong()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "UnsafeUtility.AddressOf()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "UnsafeUtility.SizeOf()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "JobHandle.Complete()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "IJobFor",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "IJobParallelForBatch",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "UnityWebRequest",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "UnityWebRequestTexture",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "UnityWebRequestAssetBundle",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "DownloadHandler",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "UploadHandler",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "CertificateHandler",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "OnEnable()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "OnDisable()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "OnValidate()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "OnReset()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "OnDestroy()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "IAsyncEnumerable<T>",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "await foreach ()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "ValueTask<T>",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "ConfiguredTaskAwaitable",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "ThreadStaticAttribute",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "ConditionalAttribute",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "MethodImplAttribute",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "MethodImplOptions.AggressiveInlining",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "StackOnly",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "NativeContainerAttribute",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "NativeArrayOptions",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "ReadOnlyAttribute",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "WriteOnlyAttribute",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Deconstruct()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Index",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Range",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "^1",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "..",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "[RequiresPreviewFeatures]",
+    "category": "unknown",
+    "color": "orange"
+  },
+  {
+    "token": "Unsafe.As<T>()",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Unsafe.AsPointer<T>()",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "MemoryMarshal",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "ArrayPool<T>",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "ObjectPool<T>",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "StringPool",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Utf8String",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "ReadOnlySequence<T>",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "CommandBuffer",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "ComputeBuffer.SetData()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "ComputeBuffer.GetData()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "AsyncGPUReadback.Request()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "LocalKeyword",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "GlobalKeyword",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "NativeArray<T>.IsCreated",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "NativeArray<T>.CopyFrom()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "NativeArrayOptions.UninitializedMemory",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "Allocator.Temp",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "Allocator.TempJob",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "Allocator.Persistent",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "UnsafeUtility.Malloc()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "UnsafeUtility.Free()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "ScriptableRenderPipeline",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "RenderPipelineAsset",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "RenderPipelineManager.beginCameraRendering",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "ScriptableRenderContext",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "CullingResults",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "DrawingSettings",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "FilteringSettings",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "SortingSettings",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Addressables.LoadAssetAsync<T>()",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Addressables.InstantiateAsync()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "AsyncOperationHandle<T>",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "IResourceLocation",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "AssetBundle.LoadFromFile()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "AssetBundle.Unload()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "AssetDatabase.LoadAllAssetsAtPath()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "AssetDatabase.ImportAsset()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "AssetDatabase.MoveAsset()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "[MaybeNull]",
+    "category": "unknown",
+    "color": "orange"
+  },
+  {
+    "token": "[NotNull]",
+    "category": "unknown",
+    "color": "orange"
+  },
+  {
+    "token": "[DoesNotReturn]",
+    "category": "unknown",
+    "color": "orange"
+  },
+  {
+    "token": "[UnscopedRef]",
+    "category": "unknown",
+    "color": "orange"
+  },
+  {
+    "token": "ref readonly",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "readonly ref",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "scoped ref",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "primary constructor",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "collection expression []",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "inline array",
+    "category": "unknown",
+    "color": "blue"
+  },
+  {
+    "token": "Physics.SyncTransforms()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Physics.autoSyncTransforms",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "Physics.QueriesHitBackfaces",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "Rigidbody.interpolation",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "Rigidbody.collisionDetectionMode",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "CharacterController.Move()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "NavMesh.CalculatePath()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "NavMeshAgent.remainingDistance",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "Animator.Play()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Animator.SetTrigger()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Animator.IsInTransition()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "AnimatorStateInfo",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "AnimationCurve.Evaluate()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Keyframe",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "AudioSource.PlayOneShot()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "AudioSource.GetOutputData()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "AudioSource.GetSpectrumData()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "OnAudioFilterRead()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "SerialPort.Open()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "SerialPort.ReadLine()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "TcpClient",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "TcpListener",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "UdpClient",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "NetworkStream",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Dns.GetHostEntry()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "IPAddress",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "IPEndPoint",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Socket.Select()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Socket.Poll()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "BitConverter.GetBytes()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Array.Copy()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Buffer.BlockCopy()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "ReadOnlySpan<byte>",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "BinaryPrimitives",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "HashAlgorithm",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "MD5.Create()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "SHA256.Create()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "AES.Create()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "HMACSHA256",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Shader.SetGlobalVectorArray()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Shader.PropertyToID()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Shader.EnableKeyword()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Shader.DisableKeyword()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Shader.WarmupAllShaders()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "ShaderVariantCollection",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "ShaderVariantCollection.WarmUp()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "MemoryProfiler.TakeSnapshot()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "MetaDataImporter",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "OnPostprocessAllAssets()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "AssetDatabase.FindAssets()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "AssetDatabase.LoadMainAssetAtPath()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "AssetDatabase.GetLabels()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "AssetDatabase.SetLabels()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "AssetDatabase.GetCachedIcon()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "PlayerSettings.GetScriptingDefineSymbols()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "PlayerSettings.SetApiCompatibilityLevel()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "IL2CPP.il2cpp_gc_disable()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "IL2CPP.il2cpp_gc_enable()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "U>()",
+    "category": "Unsafe.As<T",
+    "color": "cyan"
+  },
+  {
+    "token": "U>()",
+    "category": "Unsafe.BitCast<T",
+    "color": "cyan"
+  },
+  {
+    "token": "Unsafe.IsNullRef<T>()",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Unsafe.NullRef<T>()",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "RuntimeHelpers.GetHashCode()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "RuntimeHelpers.InitializeArray()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "RuntimeHelpers.IsReferenceOrContainsReferences<T>()",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "GC.KeepAlive()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "GC.SuppressFinalize()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "GC.ReRegisterForFinalize()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "[SourceGenerationAdapter]",
+    "category": "unknown",
+    "color": "orange"
+  },
+  {
+    "token": "[Generator]",
+    "category": "unknown",
+    "color": "orange"
+  },
+  {
+    "token": "ISourceGenerator",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "IncrementalGenerator",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "GeneratorExecutionContext",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "DiagnosticDescriptor",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "CodeAnalysis.SyntaxTree",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "CodeAnalysis.CSharp.Syntax",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "CSharpCompilation",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "SemanticModel",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "ComputeBuffer.SetCounterValue()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "ComputeBuffer.CopyCount()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "GraphicsBuffer",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "GraphicsBuffer.Target",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "GraphicsBuffer.IndirectArguments",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "AsyncGPUReadback.GetData<T>()",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "RenderPipelineManager.beginFrameRendering",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "ScriptableRenderContext.ExecuteCommandBuffer()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "ScriptableRenderContext.Submit()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Profiling.Profiler.BeginThreadProfiling()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Profiling.Profiler.EndThreadProfiling()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Unity.Profiling.ProfilerMarker",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "Unity.Profiling.ProfilerCounter",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "Unity.Collections.LowLevel.Unsafe.NativeContainerSupportsDeallocateOnJobCompletionAttribute",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "Unity.Collections.LowLevel.Unsafe.NativeDisableContainerSafetyRestrictionAttribute",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "U>()",
+    "category": "Unity.Collections.LowLevel.Unsafe.UnsafeUtility.As<T",
+    "color": "cyan"
+  },
+  {
+    "token": "Unity.Collections.LowLevel.Unsafe.UnsafeUtility.MallocTracked()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Unity.Collections.LowLevel.Unsafe.UnsafeUtility.FreeTracked()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "System.Runtime.Intrinsics",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "System.Runtime.Intrinsics.X86.Avx",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "System.Runtime.Intrinsics.Arm.AdvSimd",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "Vector128<T>",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Vector256<T>",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Unsafe.AsRef<T>()",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Unsafe.SkipInit<T>()",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Unsafe.SizeOf<T>()",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Unsafe.Add<T>()",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Unsafe.Subtract<T>()",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "MemoryMarshal.AsBytes<T>()",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "U>()",
+    "category": "MemoryMarshal.Cast<T",
+    "color": "cyan"
+  },
+  {
+    "token": "MemoryMarshal.GetReference<T>()",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "ArrayPool<T>.Shared.Rent()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "ArrayPool<T>.Shared.Return()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "GC.GetGCMemoryInfo()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "GC.GetConfigurationVariables()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "GC.RegisterNoGCRegion()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "GC.EndNoGCRegion()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Lightmapping.BakeAsync()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Lightmapping.Clear()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "LightmapSettings.lightmaps",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "LightmapData",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "ReflectionProbe.RenderProbe()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "NavMeshBuilder.BuildNavMeshData()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "NavMeshDataInstance",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "NavMeshQuery.Raycast()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "XRSettings.enabled",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "XRSettings.isDeviceActive",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "XRDevice.GetNativePtr()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "InputDevices.GetDeviceAtXRNode()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "XRNode.Head",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "XRNode.LeftHand",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "XRNode.RightHand",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "NetworkInterface.GetAllNetworkInterfaces()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "IPGlobalProperties.GetIPGlobalProperties()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Dns.GetHostAddresses()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "SocketAsyncEventArgs",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Socket.AcceptAsync()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Socket.ReceiveAsync()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Socket.SendAsync()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "MemoryMappedFile.CreateFromFile()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "MemoryMappedViewStream",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "PipeStream",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "NamedPipeServerStream",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "NamedPipeClientStream",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "WaitHandle.WaitAll()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "WaitHandle.WaitAny()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "AutoResetEvent",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "ManualResetEvent",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "SemaphoreSlim",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "ReaderWriterLockSlim",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Interlocked.Increment()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Interlocked.CompareExchange()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Volatile.Read()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Volatile.Write()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Thread.MemoryBarrier()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "ComputeShader.FindKernel()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "ComputeShader.SetTexture()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "ComputeShader.SetBuffer()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Shader.PropertyToID()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Shader.SetGlobalMatrix()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Shader.GetGlobalFloat()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Material.EnableKeyword()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Material.DisableKeyword()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Material.SetPass()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Graphics.DrawProceduralNow()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Graphics.DrawMeshInstancedIndirect()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Graphics.ExecuteCommandBufferAsync()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "ScriptableRenderContext.Cull()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "ScriptableRenderContext.DrawRenderers()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "SortingSettings.criteria",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "DrawingSettings.perObjectData",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "FilteringSettings.renderQueueRange",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "ILGenerator.Emit()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "OpCodes.Ldarg_0",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "OpCodes.Call",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "OpCodes.Ret",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "DynamicMethod",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "ModuleBuilder",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "TypeBuilder",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "MethodBuilder",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Expression.Lambda()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Expression.Compile()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Expression.Parameter()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Expression.Call()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "AppDomain.CurrentDomain.GetAssemblies()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Assembly.Load()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Assembly.GetType()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Type.GetGenericArguments()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Type.IsAssignableFrom()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "RuntimeHelpers.PrepareMethod()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "RuntimeHelpers.GetUninitializedObject()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "FormatterServices.GetUninitializedObject()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Unity.Collections.LowLevel.Unsafe.UnsafeUtility.AddressOf()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Unity.Collections.LowLevel.Unsafe.UnsafeUtility.AsRef<T>()",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "Unity.Collections.LowLevel.Unsafe.UnsafeUtility.MemCpy()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Unity.Collections.LowLevel.Unsafe.UnsafeUtility.MemMove()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Unity.Collections.LowLevel.Unsafe.UnsafeUtility.MemClear()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Unity.Collections.LowLevel.Unsafe.UnsafeUtility.Malloc()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Unity.Collections.LowLevel.Unsafe.UnsafeUtility.Free()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Unity.Collections.NativeLeakDetection.Mode",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "Unity.Jobs.LowLevel.Unsafe.JobsUtility.GetWorkStealingRange()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Unity.Jobs.LowLevel.Unsafe.JobsUtility.Schedule()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility.CreateMarker()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility.BeginSample()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility.EndSample()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "System.Runtime.InteropServices.GCHandle.Alloc()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "System.Runtime.InteropServices.GCHandle.Target",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "System.Runtime.InteropServices.GCHandleType.Pinned",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "System.Runtime.InteropServices.Marshal.ReadInt32()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "System.Runtime.InteropServices.Marshal.WriteInt32()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "System.Runtime.InteropServices.Marshal.GetLastWin32Error()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "System.Runtime.InteropServices.CallingConvention.Cdecl",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "System.Runtime.InteropServices.CallingConvention.StdCall",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "System.Runtime.CompilerServices.RuntimeFeature.IsDynamicCodeSupported",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "System.Runtime.CompilerServices.RuntimeFeature.IsDynamicCodeCompiled",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "System.Numerics.Vector.IsHardwareAccelerated",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "System.Numerics.Vector.Count",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "System.Runtime.Intrinsics.Vector128.Create()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "System.Runtime.Intrinsics.Vector256.Create()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "System.Runtime.Intrinsics.X86.Sse.Add()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "System.Runtime.Intrinsics.X86.Avx2.GatherVector256()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "System.Runtime.Intrinsics.Arm.AdvSimd.Add()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "GL.IssuePluginEvent()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "GL.GetGPUProjectionMatrix()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Graphics.SetRenderTarget()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Graphics.SetRandomWriteTarget()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Graphics.ClearRandomWriteTargets()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "GraphicsBuffer.IndirectArguments.size",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "GraphicsBuffer.Structured",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "Rendering.RenderPipeline.OnFrameEnd()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Rendering.RenderPipeline.Dispose()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Rendering.BatchRendererGroup.AddBatch()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Rendering.BatchRendererGroup.RemoveBatch()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Rendering.BatchRendererGroup.SetBatchBounds()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Unity.Collections.LowLevel.Unsafe.NativeContainerSupportsMinMaxWriteRestrictionAttribute",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "Unity.Collections.LowLevel.Unsafe.NativeDisableUnsafePtrRestrictionAttribute",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "Unity.Jobs.IJobParallelForExtensions.Schedule()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "Unity.Jobs.LowLevel.Unsafe.JobsUtility.PatchBufferMinMax()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "System.Runtime.CompilerServices.Unsafe.AsRef<T>()",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "System.Runtime.CompilerServices.Unsafe.IsAddressLessThan<T>()",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "System.Runtime.CompilerServices.RuntimeHelpers.AllocateUninitializedArray<T>()",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "System.Runtime.Intrinsics.X86.Bmi1.GetAlternateBase()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "System.Runtime.Intrinsics.X86.Fma.MultiplyAdd()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "System.Runtime.Intrinsics.Arm.Sha1.FixedRotate()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "System.Runtime.InteropServices.LibraryImportAttribute",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "System.Runtime.InteropServices.NativeMarshallingAttribute",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "System.Runtime.InteropServices.CollectionsMarshal.AsSpan<T>()",
+    "category": "unknown",
+    "color": "cyan"
+  },
+  {
+    "token": "System.Threading.Volatile.Read()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "System.Threading.Volatile.Write()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "System.Threading.Interlocked.MemoryBarrier()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "System.Threading.Interlocked.Read()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "System.Threading.Tasks.Sources.IValueTaskSource",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "System.Threading.Tasks.ValueTask.AsTask()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "XR.XRDisplaySubsystem",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "XR.XRInputSubsystem",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "XR.XRMeshSubsystem",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "XR.XRSettings.showDeviceView",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "XR.XRSettings.renderViewportScale",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "UnityEditor.PackageManager.Requests.ListRequest",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "UnityEditor.PackageManager.Requests.AddRequest",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "UnityEditor.PackageManager.PackageInfo",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "UnityEditor.Compilation.CompilationPipeline",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "UnityEditor.Compilation.Assembly.GetAssemblies()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "System.Runtime.CompilerServices.LayoutKind.Explicit",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "System.Runtime.CompilerServices.LayoutKind.Sequential",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "System.Runtime.InteropServices.FieldOffsetAttribute",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "System.Runtime.InteropServices.StructLayoutAttribute",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "System.Runtime.InteropServices.ImmutableCollectionsMarshal",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "System.Text.Unicode.Utf8.FromUtf8()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "System.Text.Unicode.Utf8.ToUtf8()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "System.Buffers.Text.Utf8Parser",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "System.Buffers.Text.Utf8Formatter",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "System.IO.Pipelines.Pipe",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "System.IO.Pipelines.PipeReader",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "System.IO.Pipelines.PipeWriter",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "System.Net.Sockets.Socket.SendAsync()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "System.Net.Sockets.Socket.ReceiveAsync()",
+    "category": "unknown",
+    "color": "yellow"
+  },
+  {
+    "token": "System.Net.WebSockets.ClientWebSocket",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "System.Net.WebSockets.WebSocketReceiveResult",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "System.Diagnostics.Tracing.EventSource",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "System.Diagnostics.Tracing.EventLevel",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "System.Diagnostics.Metrics.Counter<T>",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "System.Diagnostics.Metrics.Meter",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "System.Reflection.Emit.DynamicMethod",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "System.Reflection.Metadata.MetadataReader",
+    "category": "unknown",
+    "color": "lightyellow"
+  },
+  {
+    "token": "System.Reflection.PortableExecutable.PEReader",
+    "category": "unknown",
+    "color": "lightyellow"
+  }
+]
